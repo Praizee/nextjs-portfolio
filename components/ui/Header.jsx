@@ -1,5 +1,11 @@
+import ThemeToggler from "./ThemeToggler";
+
 const Header = () => {
-  return <header>Header</header>;
+  return (
+    <header>
+      <ThemeToggler />
+    </header>
+  );
 };
 
 export default Header;
