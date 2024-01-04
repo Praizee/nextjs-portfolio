@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22.636" height="20.435" viewBox="0 0 22.636 20.435">
+  <g id="dots-light" transform="translate(0.993 0)">
+    <path id="Path_3" data-name="Path 3" d="M20.774,8.915A8.045,8.045,0,1,1,12.729.87a8.045,8.045,0,0,1,8.045,8.045Z" fill="none" stroke="#212131" stroke-width="1.739"/>
+    <g id="Ellipse_2" data-name="Ellipse 2" transform="translate(-0.993 2.435)" fill="none" stroke="#7b39ed" stroke-width="1">
+      <circle cx="9" cy="9" r="9" stroke="none"/>
+      <circle cx="9" cy="9" r="8.5" fill="none"/>
+    </g>
+  </g>
+</svg>
