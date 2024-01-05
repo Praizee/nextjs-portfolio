@@ -1,6 +1,6 @@
 export const metadata = {
   title: "Contact",
-  description: `Contact Page`,
+  description: "Contact Page",
 };
 
 const Contact = () => {

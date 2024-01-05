@@ -1,6 +1,6 @@
 export const metadata = {
   title: "Projects",
-  description: `Projects Page`,
+  description: "Projects Page",
 };
 
 const Projects = () => {
