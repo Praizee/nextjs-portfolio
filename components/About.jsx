@@ -181,7 +181,7 @@ const About = () => {
                             <div className="flex flex-col gap-y-8">
                               {getData(
                                 qualificationData,
-                                "experience"
+                                "Experience"
                               ).data.map((item, index) => {
                                 const { company, role, years } = item;
                                 return (
@@ -297,7 +297,7 @@ const About = () => {
                                     src={imgPath}
                                     width={48}
                                     height={48}
-                                    alt=""
+                                    alt="Description of the tool or skill"
                                     priority
                                   />
                                 </div>
