@@ -76,7 +76,7 @@ const skillsData = [
     ],
   },
   {
-    title: "tools",
+    title: "Tools",
     data: [
       {
         imgPath: "/about/vscode.svg",
@@ -264,7 +264,7 @@ const About = () => {
 
                         {/* Skill List */}
                         <div>
-                          {getData(skillsData, "skills").data.map(
+                          {getData(skillsData, "Skills").data.map(
                             (item, index) => {
                               const { name } = item;
                               return (
@@ -288,7 +288,7 @@ const About = () => {
                         <div className="border-b border-border mb-4"></div>
                         {/* Tools List */}
                         <div className="flex gap-x-8 justify-center xl:justify-start">
-                          {getData(skillsData, "tools").data.map(
+                          {getData(skillsData, "Tools").data.map(
                             (item, index) => {
                               const { imgPath } = item;
                               return (
