@@ -114,9 +114,9 @@ const About = () => {
             />
             {/* Tabs */}
             <div className="flex-1">
-              <Tabs defaultValue="personal">
+              <Tabs defaultValue="Personal">
                 <TabsList className="w-full grid xl:grid-cols-3 xl:max-w-[520px] xl:border dark:border-none">
-                  <TabsTrigger className="w-[162px] xl:w-auto" value="personal">
+                  <TabsTrigger className="w-[162px] xl:w-auto" value="Personal">
                     Personal Info
                   </TabsTrigger>
                   <TabsTrigger
@@ -132,7 +132,7 @@ const About = () => {
                 {/* Tab Content */}
                 <div className="text-lg mt-12 xl:mt-8">
                   {/* Personal Tab */}
-                  <TabsContent value="personal">
+                  <TabsContent value="Personal">
                     <div className="text-center xl:text-left">
                       <h3 className="h3 mb-4">Delivering quality products</h3>
                       <p className="subtitle max-w-xl mx-auto xl:mx-0">
@@ -163,7 +163,7 @@ const About = () => {
                   </TabsContent>
 
                   {/* Qualifications Tab */}
-                  <TabsContent value="qualifications">
+                  <TabsContent value="Qualifications">
                     <div className="">
                       <h3 className="h3 mb-8 text-center xl:text-left">
                         My Journey
@@ -253,7 +253,7 @@ const About = () => {
                   </TabsContent>
 
                   {/* Skills Tab */}
-                  <TabsContent value="skills">
+                  <TabsContent value="Skills">
                     <div className="text-center xl:text-left">
                       {/* <h4 className="h3 mb-8">Tools I use Daily</h4> */}
                       <h4 className="h3 mb-8">Experience Tools</h4>
