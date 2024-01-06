@@ -107,7 +107,7 @@ const About = () => {
         </h2>
         <div className="flex flex-col xl:flex-row">
           {/* Image */}
-          <div className="hidden xl:flex flex-1 relative">
+          <div className="hidden xl:flex gap-16 flex-1 relative">
             <DevImg
               containerStyles="bg-about_shape_light dark:bg-about_shape_dark w-[505px] h-[505px] bg-no-repeat relative"
               imgSrc="/about/developer.png"
@@ -157,7 +157,7 @@ const About = () => {
                       <div className="flex flex-col gap-y-2">
                         <div>Language Skills</div>
                         <div className="border-b border-border"></div>
-                        <div>English, French, Yoruba</div>
+                        <div>English, French, Yoruba (native)</div>
                       </div>
                     </div>
                   </TabsContent>

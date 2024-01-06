@@ -1,40 +1,38 @@
 "use client";
 
 import {
-  RiYoutubeFill,
-  RiCodepenFill,
+  RiTwitterXFill,
   RiLinkedinFill,
   RiGithubFill,
   RiFacebookFill,
   RiInstagramFill,
 } from "react-icons/ri";
 
-import { Link } from "next/link";
-
 const icons = [
   {
-    path: "/",
-    name: <RiYoutubeFill />,
-  },
-  {
-    path: "/",
-    name: <RiCodepenFill />,
-  },
-  {
-    path: "/",
+    path: "https://www.linkedin.com/in/stephen-adeniji/",
     name: <RiLinkedinFill />,
+    title: "LinkedIn",
   },
   {
-    path: "/",
+    path: "https://github.com/Praizee",
     name: <RiGithubFill />,
+    title: "GitHub",
   },
   {
-    path: "/",
+    path: "https://www.facebook.com/steve.ade1407/",
     name: <RiFacebookFill />,
+    title: "Facebook",
   },
   {
-    path: "/",
+    path: "https://twitter.com/steve_ade1407",
+    name: <RiTwitterXFill />,
+    title: "Twitter X",
+  },
+  {
+    path: "https://www.instagram.com/steve_ade14/",
     name: <RiInstagramFill />,
+    title: "Instagram",
   },
 ];
 
@@ -43,9 +41,16 @@ const Socials = ({ containerStyles, iconsStyles }) => {
     <div className={`${containerStyles}`}>
       {icons.map((icon, index) => {
         return (
-          <Link href={icon.path} key={index}>
-            <div className={`${iconsStyles}`}>{icon.name}</div>
-          </Link>
+          <a
+            href={icon.path}
+            key={index}
+            className={`${iconsStyles}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            title={icon.title}
+          >
+            {icon.name}
+          </a>
         );
       })}
     </div>
