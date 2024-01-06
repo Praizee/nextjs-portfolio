@@ -11,7 +11,7 @@ import { usePathname } from "next/navigation";
 const Header = () => {
   const [header, setHeader] = useState(false);
   const pathname = usePathname();
-  console.log(pathname);
+  // console.log(pathname);
 
   useEffect(() => {
     const scrollYPos = window.addEventListener("scroll", () => {

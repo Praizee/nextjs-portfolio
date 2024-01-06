@@ -6,6 +6,7 @@ import {
   RiGithubFill,
   RiFacebookFill,
   RiInstagramFill,
+  RiWhatsappFill,
 } from "react-icons/ri";
 
 const icons = [
@@ -41,18 +42,23 @@ const Socials = ({ containerStyles, iconsStyles }) => {
     <div className={`${containerStyles}`}>
       {icons.map((icon, index) => {
         return (
-          <a
-            href={icon.path}
-            key={index}
-            className={`${iconsStyles}`}
-            target="_blank"
-            rel="noopener noreferrer"
-            title={icon.title}
-          >
-            {icon.name}
-          </a>
+          <>
+            <a
+              href={icon.path}
+              key={index}
+              className={`${iconsStyles}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              title={icon.title}
+            >
+              {icon.name}
+            </a>
+          </>
         );
       })}
+      <a href="#" className={`${iconsStyles}`} target="_blank" title="WhatsApp">
+        <RiWhatsappFill className="fill-green-400" />
+      </a>
     </div>
   );
 };
