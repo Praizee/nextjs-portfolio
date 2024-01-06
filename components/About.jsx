@@ -4,10 +4,9 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "./ui/tabs";
 import {
   User2,
   MailIcon,
-  HomeIcon,
   PhoneCall,
   GraduationCap,
-  Calendar,
+  MapPin,
   Briefcase,
 } from "lucide-react";
 
@@ -15,7 +14,7 @@ const infoData = [
   { icon: <User2 size={20} />, text: "Stephen Adeniji" },
   { icon: <PhoneCall size={20} />, text: "+234 902 892 3853" },
   { icon: <MailIcon size={20} />, text: "adeolaastephen@gmail.com" },
-  { icon: <Calendar size={20} />, text: "14 July, 2003" },
+  { icon: <MapPin size={20} />, text: "Lagos, Nigeria" },
   { icon: <GraduationCap size={20} />, text: "B.Sc in Computer Science" },
 ];
 
@@ -24,13 +23,13 @@ const qualificationData = [
     title: "Education",
     data: [
       {
-        school: "Edexcel Uni",
+        school: "Edexcel University, Benin",
         qualification: "Bachelor of Science",
         years: "2019 - 2022",
       },
       {
-        school: "Towemo College",
-        qualification: "High School Diploma",
+        school: "Towemo College, Lagos",
+        qualification: "S.S.C.E",
         years: "2013 - 2019",
       },
     ],
@@ -41,17 +40,17 @@ const qualificationData = [
       {
         company: "Voltwolf Limited",
         role: "React Developer",
-        years: "2019 - 2022",
+        years: "Jan 2024 - Present",
       },
       {
         company: "Voltwolf Limited",
         role: "Frontend Intern",
-        years: "2019 - 2022",
+        years: "Aug - Dec.  2023",
       },
       {
-        company: "ICT NetWorld",
+        company: "ICT Networld",
         role: "Frontend Intern",
-        years: "2019 - 2022",
+        years: "Aug - Nov. 2022",
       },
     ],
   },
@@ -62,16 +61,28 @@ const skillsData = [
     title: "Skills",
     data: [
       {
-        name: "HTML, CSS",
+        title: "Markup Languages",
+        list: "HTML",
       },
       {
-        name: "Bootstrap, Javascript",
+        title: "Styles",
+        list: "CSS3, Bootstrap, Tailwind CSS",
       },
       {
-        name: "Tailwind, React.js, Typescript ",
+        title: "Programming Languages",
+        list: "JavaScript, Typescript",
       },
       {
-        name: "Next.js, Git/GitHub",
+        title: "Libraries",
+        list: "React.js",
+      },
+      {
+        title: "Frameworks",
+        list: "Next.js",
+      },
+      {
+        title: "Version Control",
+        list: "Git, GitHub ",
       },
     ],
   },
@@ -138,10 +149,29 @@ const About = () => {
                 {/* Personal Tab */}
                 <TabsContent value="Personal">
                   <div className="text-center xl:text-left">
-                    <h3 className="h3 mb-4">Delivering quality products</h3>
+                    <h3 className="h3 mb-4">Intro</h3>
                     <p className="subtitle max-w-xl mx-auto xl:mx-0">
-                      Lorem ipsum dolor sit amet consectetur adipiscing elit.
-                      Dolor
+                      Hello, I'm Stephen Adeniji, a front-end developer based in
+                      Lagos, Nigeria. With a B.Sc in Computer Science, I bring a
+                      strong foundation in both theoretical and practical
+                      aspects of software development. My journey in the tech
+                      world is fueled by a constant desire to learn and create.
+                      You can reach me at{" "}
+                      <a href="https://wa.link/wk4gts" className="text-primary">
+                        +234 902 892 3853
+                      </a>{" "}
+                      or{" "}
+                      <a
+                        href="mailto:adeolaastephen@gmail.com."
+                        className="text-primary"
+                      >
+                        adeolaastephen@gmail.com
+                      </a>
+                      . Feel free to explore my work and connect with me.
+                      Looking forward to collaborating and sharing my web
+                      development journey with you! As well as bring my passion
+                      for coding and problem solving to a dynamic and innovative
+                      team!
                     </p>
                     {/* Icons */}
                     <div className="grid xl:grid-cols-2 gap-4 mb-12">
@@ -159,9 +189,9 @@ const About = () => {
                     </div>
                     {/* Languages */}
                     <div className="flex flex-col gap-y-2">
-                      <div>Language Skills</div>
+                      <div>Languages</div>
                       <div className="border-b border-border"></div>
-                      <div>English, French, Yoruba (native)</div>
+                      <div>English, French, Yoruba</div>
                     </div>
                   </div>
                 </TabsContent>
@@ -268,10 +298,15 @@ const About = () => {
                             const { name } = item;
                             return (
                               <div
-                                className="w-2/4 text-center xl:text-left mx-auto xl:mx-0"
+                                className="w-2/4 xl:w-auto text-center xl:text-left mx-auto xl:mx-0"
                                 key={index}
                               >
-                                <div className="font-medium">{name}</div>
+                                <div className="font-medium xl:flex gap-x-2">
+                                  <p className="font-bold text-primary">
+                                    {item.title}:
+                                  </p>
+                                  <p className="mb-4 xl:mb-2">{item.list}</p>
+                                </div>
                               </div>
                             );
                           }

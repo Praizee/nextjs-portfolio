@@ -23,17 +23,13 @@ const Hero = () => {
               <div className="text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]">
                 Front End Web Developer
               </div>
-              <h1 className="h1">Hello, This is Stephen</h1>
-              {/* <p className="subtitle max-w-[490px] mx-auto xl:mx-0">
-                I help clients create brands, build digital products and
-                services, innovate and validate ideas.
-              </p> */}
+              <h1 className="h1">Hi there! 👋🏽</h1>
+              <h2 className="h2 text-2xl">I'm Stephen Adeniji,</h2>
               <p className="subtitle max-w-[490px] mx-auto xl:mx-0">
-                I thrive on transforming ideas into reality, whether it's
-                enhancing your online presence or creating innovative solutions
-                for your business. Let's connect and discuss how I can elevate
-                your digital footprint with my experience and commitment to
-                excellence.
+                A passionate front-end developer dedicated to creating immersive
+                and user-friendly web experiences. With a keen eye for design
+                and a love for coding, I bring creativity and precision to every
+                project.
               </p>
             </div>
 

@@ -56,7 +56,12 @@ const Socials = ({ containerStyles, iconsStyles }) => {
           </>
         );
       })}
-      <a href="#" className={`${iconsStyles}`} target="_blank" title="WhatsApp">
+      <a
+        href="https://wa.link/wk4gts"
+        className={`${iconsStyles}`}
+        target="_blank"
+        title="WhatsApp"
+      >
         <RiWhatsappFill className="fill-green-400" />
       </a>
     </div>
