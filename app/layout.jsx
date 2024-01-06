@@ -3,6 +3,7 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/ThemeProvider";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import BackToTopButton from "@/components/BackToTopButton";
 
 const outfit = Outfit({ subsets: ["latin"] });
 
@@ -21,6 +22,7 @@ export default function RootLayout({ children }) {
         <ThemeProvider attribute="class" defaultTheme="light">
           <Header />
           {children}
+          <BackToTopButton />
           <Footer />
         </ThemeProvider>
       </body>
