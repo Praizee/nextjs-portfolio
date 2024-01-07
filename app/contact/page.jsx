@@ -20,8 +20,8 @@ const Contact = () => {
             </div>
             <h1 className="h1 max-w-md mb-8">Let's work together!</h1>
             <p className="subtitle max-w-[400px]">
-              Lorem ipsum dolor sit amet commodo et in facilisis labore lobortis
-              nonumy et sit dolore eos congue amet ipsum dolore
+              Feel free to reach out to me for collaboration, inquiries, or just
+              to say hi. <br /> I look forward to hearing from you!
             </p>
           </div>
           {/* Image */}
@@ -32,6 +32,11 @@ const Contact = () => {
           <div className="grid xl:grid-cols-2 mb-24 xl:mb-32">
             {/* Info Text */}
             <div className="flex flex-col gap-y-4 xl:gap-y-14 mb-12 xl:mb-24 text-base xl:text-lg">
+              {/* Phone */}
+              <div className="flex items-center gap-x-8">
+                <PhoneCall size={18} className="text-primary" />
+                <div>+234 902 892 3853</div>
+              </div>
               {/* Mail */}
               <div className="flex items-center gap-x-8">
                 <MailIcon size={18} className="text-primary" />
@@ -41,11 +46,6 @@ const Contact = () => {
               <div className="flex items-center gap-x-8">
                 <HomeIcon size={18} className="text-primary" />
                 <div>Lagos, Nigeria</div>
-              </div>
-              {/* Mail */}
-              <div className="flex items-center gap-x-8">
-                <PhoneCall size={18} className="text-primary" />
-                <div>+234 902 892 3853</div>
               </div>
             </div>
 
