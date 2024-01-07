@@ -149,14 +149,30 @@ const About = () => {
                 {/* Personal Tab */}
                 <TabsContent value="Personal">
                   <div className="text-center xl:text-left">
-                    <h3 className="h3 mb-4">Intro</h3>
+                    {/* <h3 className="h3 mb-4">Intro</h3> */}
+                    {/* <p>
+                      I'm a Web Developer👨‍💻 who specializes in building
+                      responsive websites and web app. I am currently working a
+                      web developer at Voltwolf Limited. I am also a Tech
+                      enthusiast with a creative mind. In my free time I like to
+                      read📖, researching about emerging technogies, play
+                      games🎮 and watch movies🎬
+                    </p> */}
                     <p className="subtitle max-w-xl mx-auto xl:mx-0">
                       Hello, I'm Stephen Adeniji, a front-end developer based in
                       Lagos, Nigeria. With a B.Sc in Computer Science, I bring a
                       strong foundation in both theoretical and practical
                       aspects of software development. My journey in the tech
                       world is fueled by a constant desire to learn and create.
-                      You can reach me at{" "}
+                    </p>
+                    <p className="subtitle max-w-xl mx-auto xl:mx-0">
+                      In my free time I like to read📖, researching about
+                      emerging technogies, play games🎮 and watch movies🎬. Feel
+                      free to explore my work and connect with me. Looking
+                      forward to collaborating and sharing my web development
+                      journey with you! As well as bring my passion for coding
+                      and problem solving to a dynamic and innovative team! You
+                      can reach me at{" "}
                       <a href="https://wa.link/wk4gts" className="text-primary">
                         +234 902 892 3853
                       </a>{" "}
@@ -166,12 +182,8 @@ const About = () => {
                         className="text-primary"
                       >
                         adeolaastephen@gmail.com
-                      </a>
-                      . Feel free to explore my work and connect with me.
-                      Looking forward to collaborating and sharing my web
-                      development journey with you! As well as bring my passion
-                      for coding and problem solving to a dynamic and innovative
-                      team!
+                      </a>{" "}
+                      .
                     </p>
                     {/* Icons */}
                     <div className="grid xl:grid-cols-2 gap-4 mb-12">
