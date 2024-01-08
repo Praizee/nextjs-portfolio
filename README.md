@@ -1,3 +1,17 @@
+# Stephen Adeniji's Portfolio Website
+
+Built with Next.js 14, Shadcn UI, Framer Motion, and Tailwind CSS
+
+(3rd January 2024)
+
+[Source/Inspiration](https://www.youtube.com/watch?v=kazWtKBwX0w&ab_channel=RajacharlesSRD)
+<!-- https://www.youtube.com/watch?v=kazWtKBwX0w&ab_channel=RajacharlesSRD -->
+
+<br>
+<br>
+
+# Guide
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
