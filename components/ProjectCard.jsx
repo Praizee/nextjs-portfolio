@@ -23,6 +23,8 @@ const ProjectCard = ({ project }) => {
           <div className="flex gap-x-4">
             <Link
               href={project.link}
+              title="Demo"
+              target="_blank"
               className="bg-[#1E2A3B] w-[54px] h-[54px] rounded-full flex justify-center items-center scale-0 opacity-0 group-hover:scale-100 group-hover:opacity-100 transition-all duration-200"
             >
               <Link2Icon className="text-white" />
@@ -30,6 +32,8 @@ const ProjectCard = ({ project }) => {
 
             <Link
               href={project.github}
+              title="GitHub Source Code"
+              target="_blank"
               className="bg-[#1E2A3B] w-[54px] h-[54px] rounded-full flex justify-center items-center scale-0 opacity-0 group-hover:scale-100 group-hover:opacity-100 transition-all duration-200"
             >
               <Github className="text-white" />

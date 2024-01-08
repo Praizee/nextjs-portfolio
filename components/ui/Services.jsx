@@ -12,19 +12,20 @@ const servicesData = [
     icon: <GanttChartSquare size={72} strokeWidth={0.8} />,
     title: "UI/UX Design",
     description:
-      "Lorem ipsum dolor sit amet commodo et in facilisis labore lobortis nonumy et sit dolore eos congue amet ipsum dolore",
+      "Shaping digital experiences through thoughtful and user-centric design. From wireframes to polished interfaces, I focus on creating visually appealing and intuitively navigable designs. Elevate your brand with engaging and user-friendly interfaces.",
   },
   {
     icon: <Blocks size={72} strokeWidth={0.8} />,
     title: "App Development",
     description:
-      "Lorem ipsum dolor sit amet commodo et in facilisis labore lobortis nonumy et sit dolore eos congue amet ipsum dolore",
+      "Bringing your ideas to life with custom mobile applications. I specialize in developing intuitive and feature-rich apps for various platforms. Whether it's iOS or Android, I create solutions that elevate user engagement and satisfaction.",
   },
   {
     icon: <Gem size={72} strokeWidth={0.8} />,
     title: "Web Development",
     description:
-      "Lorem ipsum dolor sit amet commodo et in facilisis labore lobortis nonumy et sit dolore eos congue amet ipsum dolore",
+      "Crafting dynamic and responsive websites tailored to your needs. From conceptualization to deployment, I ensure seamless user experiences. Additionally, I offer ongoing maintenance to keep your web presence optimized and up-to-date.",
+    // " I design and build websites for corporate or individual clients. I work with colleagues and clients to understand website requirements and client needs. I write, tests, and debug code and applications.",
   },
 ];
 
@@ -49,7 +50,7 @@ const Services = () => {
                   </div>
                 </CardHeader>
                 <CardContent className="text-center">
-                  <CardTitle className="mb-4">{item.title}</CardTitle>
+                  <CardTitle className="mb-4 mt-10">{item.title}</CardTitle>
                   <CardDescription className="text-lg">
                     {item.description}
                   </CardDescription>

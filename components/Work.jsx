@@ -17,21 +17,20 @@ const projectData = [
   {
     image: "/work/3.png",
     category: "next.js",
-    // gsap
     name: "Financial Dashboard",
     description:
-      "Lorem ipsum dolor sit amet commodo et in facilisis labore lobortis nonumy et sit dolore eos congue amet ipsum dolore",
-    link: "/",
-    github: "/",
+      "Effortlessly manage invoices and customers with our Financial Dashboard. It provides a seamless experience for enhancing your financial workflow",
+    link: "https://nextjs-dashboard-eight-zeta-22.vercel.app/",
+    github: "https://github.com/Praizee/nextjs-dashboard",
   },
   {
     image: "/work/4.png",
     category: "react.js, Typescript",
     name: "Payment Wallet",
     description:
-      "Lorem ipsum dolor sit amet commodo et in facilisis labore lobortis nonumy et sit dolore eos congue amet ipsum dolore",
-    link: "/",
-    github: "/",
+      "Experience convenience at your fingertips. Seamlessly make purchases, pay bills and more—all within a secure and user-friendly platform.",
+    link: "https://digital-payment-wallett.netlify.app/",
+    github: "https://github.com/Praizee/Digital-Payment-Wallett",
   },
   {
     image: "/work/1.png",
@@ -39,8 +38,8 @@ const projectData = [
     name: "Real-time Chat App",
     description:
       "Engage in seamless real-time conversations with our React-based chat app, powered by Appwrite for secure and efficient messaging.",
-    link: "/",
-    github: "/",
+    link: "https://realtime-chat-app-01.netlify.app/",
+    github: "#",
   },
   {
     image: "/work/2.png",
@@ -48,8 +47,8 @@ const projectData = [
     name: "Movie Website",
     description:
       "Experience a cinematic journey with our sleek and user-friendly movie website, featuring the latest releases and popular classics.",
-    link: "/",
-    github: "/",
+    link: "https://filmlane01.netlify.app/",
+    github: "#",
   },
   {
     image: "/work/3.png",
@@ -57,8 +56,8 @@ const projectData = [
     name: "App Landing Page",
     description:
       "A stunning, visually appealing app landing page that converts visitors to users. Try it today!",
-    link: "/",
-    github: "/",
+    link: "https://praizee.github.io/App-Landing-Page/",
+    github: "https://github.com/Praizee/App-Landing-Page",
   },
 ];
 
