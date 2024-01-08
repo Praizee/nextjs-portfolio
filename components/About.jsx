@@ -123,8 +123,11 @@ const About = () => {
           {/* Image */}
           <div className="hidden xl:flex  flex-1 relative">
             <DevImg
-              containerStyles="bg-about_shape_light dark:bg-about_shape_dark w-[505px] h-[505px] bg-no-repeat relative"
-              imgSrc="/about/developer.png"
+              containerStyles=" w-[505px] h-[505px] bg-no-repeat relative"
+              // bg-about_shape_light dark:bg-about_shape_dark
+              // imgSrc="https://stephen-adeniji.vercel.app/public/opengraph-image.png"
+              imgSrc="/developer-2.svg"
+              imgAlt="About Dev Image"
             />
           </div>
           {/* Tabs */}

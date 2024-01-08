@@ -58,6 +58,7 @@ const Hero = () => {
               containerStyles="absolute top-[24%] -left-[5rem]"
               icon={<RiBriefcase4Fill />}
               endCountNum={2}
+              // endCountText="+"
               badgeText="Years of Experience"
             />
 
@@ -65,8 +66,9 @@ const Hero = () => {
             <Badge
               containerStyles="absolute top-[70%] -left-[1rem]"
               icon={<RiTodoFill />}
-              endCountNum={4}
-              endCountText="k"
+              endCountNum={8}
+              endCountText="+"
+              // endCountText="k"
               badgeText="Completed projects"
             />
 
@@ -74,16 +76,20 @@ const Hero = () => {
             <Badge
               containerStyles="absolute top-[50%] -right-10"
               icon={<RiTeamFill />}
-              endCountNum={3}
-              endCountText="k"
+              endCountNum={5}
+              endCountText="+"
+              // endCountText="k"
               badgeText="Teams satisfied"
             />
 
             {/* Image */}
-            <div className="bg-hero_shape2_light dark:bg-hero_shape2_dark w-[500px] h-[500px] bg-no-repeat relative -top-1 -right-2">
+            <div className=" w-[550px] h-[550px] bg-no-repeat relative -top-1 -right-2">
+              {/* bg-hero_shape2_light dark:bg-hero_shape2_dark */}
               <DevImg
-                imgSrc="/about/developer.png"
-                containerStyles="bg-hero_shape w-[510px] h-[462px] bg-no-repeat relative bg-bottom"
+                imgSrc="/developer-2.svg"
+                imgAlt="Hero Dev Image"
+                containerStyles="w-[510px] h-[462px] bg-no-repeat relative bg-bottom"
+                // bg-hero_shape
               />
             </div>
           </div>
