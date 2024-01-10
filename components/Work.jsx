@@ -5,12 +5,15 @@ import { Button } from "./ui/button";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
+import "swiper/css/autoplay";
 
 // Required Modules
-import { Pagination } from "swiper/modules";
+import { Pagination, Autoplay } from "swiper/modules";
 
 // Components
 import ProjectCard from "./ProjectCard";
+
+// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
 const projectData = [
@@ -85,7 +88,8 @@ const Work = () => {
               },
             }}
             spaceBetween={30}
-            modules={[Pagination]}
+            modules={[Pagination, Autoplay]}
+            autoplay
             pagination={{ clickable: true }}
           >
             {/* Show only the first 4 projects for the slides */}
