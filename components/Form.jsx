@@ -8,12 +8,20 @@ import { User, MailIcon, ArrowRightIcon, MessageSquare } from "lucide-react";
 const Form = () => {
   return (
     <form
-      action="https://formsubmit.co/adeolaastephen@gmail.com"
+      // action="https://formsubmit.co/adeolaastephen@gmail.com"
+      action="https://formsubmit.co/d3088beca64d6b91da3077fa08a14023"
       method="POST"
       className="flex flex-col gap-y-4"
     >
       <input type="hidden" name="_subject" value="New submission!" />
       <input type="hidden" name="_template" value="table" />
+      <input
+        type="hidden"
+        name="_autoresponse"
+        value="Hello,
+        Thank you for contacting me. I've received your message and will be in touch shortly. In the meantime, feel free to explore my portfolio to see my latest work.
+        Best regards, Stephen"
+      />
       {/* <input type="hidden" name="_template" value="basic" /> */}
       {/* <input type="hidden" name="_template" value="box" /> */}
 
