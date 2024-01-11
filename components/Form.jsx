@@ -18,9 +18,7 @@ const Form = () => {
       <input
         type="hidden"
         name="_autoresponse"
-        value="Hello,
-        Thank you for contacting me. I've received your message and will be in touch shortly. In the meantime, feel free to explore my portfolio to see my latest work.
-        Best regards, Stephen"
+        value="Hello, Thank you for contacting me. I've received your message and will be in touch shortly. In the meantime, feel free to explore my portfolio to see my latest work. Best regards, Stephen"
       />
       {/* <input type="hidden" name="_template" value="basic" /> */}
       {/* <input type="hidden" name="_template" value="box" /> */}
