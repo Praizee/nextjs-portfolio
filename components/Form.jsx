@@ -7,21 +7,40 @@ import { User, MailIcon, ArrowRightIcon, MessageSquare } from "lucide-react";
 
 const Form = () => {
   return (
-    <form className="flex flex-col gap-y-4">
+    <form
+      action="https://formsubmit.co/adeolaastephen@gmail.com"
+      method="POST"
+      className="flex flex-col gap-y-4"
+    >
+      <input type="hidden" name="_subject" value="New submission!" />
+      <input type="hidden" name="_template" value="table" />
+      {/* <input type="hidden" name="_template" value="basic" /> */}
+      {/* <input type="hidden" name="_template" value="box" /> */}
+
       {/* Input */}
       {/* Name */}
       <div className="relative flex items-center">
-        <Input type="name" id="name" placeholder="Name" required />
+        <Input type="text" name="Name" id="name" placeholder="Name" required />
         <User className="absolute right-6" size={20} />
       </div>
       {/* Email */}
       <div className="relative flex items-center">
-        <Input type="email" id="email" placeholder="Email" required />
+        <Input
+          type="email"
+          name="Email"
+          id="email"
+          placeholder="Email"
+          required
+        />
         <MailIcon className="absolute right-6" size={20} />
       </div>
       {/* Message */}
       <div className="relative flex items-center">
-        <Textarea placeholder="Enter your Message here... " required />
+        <Textarea
+          name="Message"
+          placeholder="Enter your Message here... "
+          required
+        />
         <MessageSquare className="absolute top-4 right-6" size={20} />
       </div>
 
