@@ -18,7 +18,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 const projectData = [
   {
-    image: "/work/3.png",
+    image: "/work/financial-dashboard.png",
     category: "next.js",
     name: "Financial Dashboard",
     description:
@@ -27,7 +27,7 @@ const projectData = [
     github: "https://github.com/Praizee/nextjs-dashboard",
   },
   {
-    image: "/work/4.png",
+    image: "/work/payment-wallet.png",
     category: "react.js, Typescript",
     name: "Payment Wallet",
     description:
@@ -36,7 +36,7 @@ const projectData = [
     github: "https://github.com/Praizee/Digital-Payment-Wallett",
   },
   {
-    image: "/work/1.png",
+    image: "/work/chat-app.png",
     category: "react.js",
     name: "Real-time Chat App",
     description:
@@ -45,7 +45,7 @@ const projectData = [
     github: "#",
   },
   {
-    image: "/work/2.png",
+    image: "/work/filmlane.png",
     category: "html/css",
     name: "Movie Website",
     description:
@@ -54,7 +54,7 @@ const projectData = [
     github: "#",
   },
   {
-    image: "/work/3.png",
+    image: "/work/app-land.png",
     category: "html/css/bootstrap",
     name: "App Landing Page",
     description:

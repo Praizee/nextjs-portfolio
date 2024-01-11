@@ -12,7 +12,17 @@ import ProjectCard from "@/components/ProjectCard";
 
 const projectData = [
   {
-    image: "/work/3.png",
+    image: "/work/car-hub.png",
+    category: "next.js",
+    // gsap
+    name: "Car Hub - Car Showcase",
+    description:
+      "Lorem ipsum dolor sit amet rebum magna dolores blandit ea et et duo gubergren diam eirmod invidunt iusto et in",
+    link: "https://car-showcase-app-seven.vercel.app/",
+    github: "https://github.com/Praizee/car-showcase-app",
+  },
+  {
+    image: "/work/financial-dashboard.png",
     category: "next.js",
     // gsap
     name: "Financial Dashboard",
@@ -22,7 +32,7 @@ const projectData = [
     github: "https://github.com/Praizee/nextjs-dashboard",
   },
   {
-    image: "/work/4.png",
+    image: "/work/payment-wallet.png",
     category: "react.js, Typescript",
     name: "Payment Wallet",
     description:
@@ -31,7 +41,7 @@ const projectData = [
     github: "https://github.com/Praizee/Digital-Payment-Wallett",
   },
   {
-    image: "/work/1.png",
+    image: "/work/chat-app.png",
     category: "react.js",
     name: "Real-time Chat App",
     description:
@@ -40,7 +50,7 @@ const projectData = [
     github: "#",
   },
   {
-    image: "/work/2.png",
+    image: "/work/filmlane.png",
     category: "html/css",
     name: "Movie Website",
     description:
@@ -49,7 +59,7 @@ const projectData = [
     github: "#",
   },
   {
-    image: "/work/3.png",
+    image: "/work/app-land.png",
     category: "html/css/bootstrap",
     name: "App Landing Page",
     description:
@@ -105,7 +115,7 @@ const Projects = () => {
           </TabsList>
 
           {/* Tabs content */}
-          <div className="text-lg xl:mt-8 grid grid-cols-1 lg:grid-cols-3 gap-4">
+          <div className="text-lg h-full xl:mt-8 grid grid-cols-1 lg:grid-cols-3 gap-4">
             {filteredProjects.map((project, index) => {
               return (
                 <TabsContent value={category} key={index}>
