@@ -8,11 +8,23 @@ import BackToTopButton from "@/components/BackToTopButton";
 const outfit = Outfit({ subsets: ["latin"] });
 
 export const metadata = {
+  metadataBase: new URL("https://stephen-adeniji.vercel.app/"),
+
   title: {
     template: "Stephen Adeniji | %s",
     default: "Stephen Adeniji | Home",
   },
   description: `Stephen Adeniji's Portfolio Website`,
+  alternates: {
+    canonical: "/",
+    languages: {
+      "en-US": "/en-US",
+      "de-DE": "/de-DE",
+    },
+  },
+  openGraph: {
+    images: "/opengraph-image.png",
+  },
 };
 
 export default function RootLayout({ children }) {
