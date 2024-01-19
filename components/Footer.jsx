@@ -15,6 +15,15 @@ const Footer = () => {
           <div className="text-muted-foreground">
             Copyright &copy; {currentYear} All Rights Reserved
           </div>
+          <div className="text-muted-foreground">
+            Made with 💙 by{" "}
+            <a
+              href="https://github.com/Praizee"
+              className="hover:text-primary transition duration-300"
+            >
+              Stephen Adeniji
+            </a>
+          </div>
         </div>
       </div>
     </footer>
