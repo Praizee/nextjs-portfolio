@@ -14,6 +14,13 @@ const nextConfig = {
         port: "",
         pathname: "/images/**",
       },
+      {
+        protocol: "https",
+        hostname: "res.cloudinary.com",
+        // https://res.cloudinary.com/dbiegrtmj/image/upload/v1709422259/Screenshot_2024-03-03_002412_jd2fv6.png
+        port: "",
+        pathname: "/dbiegrtmj/image/**",
+      },
     ],
   },
 };
