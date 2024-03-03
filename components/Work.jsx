@@ -16,53 +16,8 @@ import ProjectCard from "./ProjectCard";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
-const projectData = [
-  {
-    image: "/work/financial-dashboard.png",
-    category: "next.js",
-    name: "Financial Dashboard",
-    description:
-      "Effortlessly manage invoices and customers with our Financial Dashboard. It provides a seamless experience for enhancing your financial workflow",
-    link: "https://nextjs-dashboard-eight-zeta-22.vercel.app/",
-    github: "https://github.com/Praizee/nextjs-dashboard",
-  },
-  {
-    image: "/work/payment-wallet.png",
-    category: "react.js, Typescript",
-    name: "Payment Wallet",
-    description:
-      "Experience convenience at your fingertips. Seamlessly make purchases, pay bills and more—all within a secure and user-friendly platform.",
-    link: "https://digital-payment-wallett.netlify.app/",
-    github: "https://github.com/Praizee/Digital-Payment-Wallett",
-  },
-  {
-    image: "/work/chat-app.png",
-    category: "react.js",
-    name: "Real-time Chat App",
-    description:
-      "Engage in seamless real-time conversations with our React-based chat app, powered by Appwrite for secure and efficient messaging.",
-    link: "https://realtime-chat-app-01.netlify.app/",
-    github: "#",
-  },
-  {
-    image: "/work/filmlane.png",
-    category: "html/css",
-    name: "Movie Website",
-    description:
-      "Experience a cinematic journey with our sleek and user-friendly movie website, featuring the latest releases and popular classics.",
-    link: "https://filmlane01.netlify.app/",
-    github: "#",
-  },
-  {
-    image: "/work/app-land.png",
-    category: "html/css/bootstrap",
-    name: "App Landing Page",
-    description:
-      "A stunning, visually appealing app landing page that converts visitors to users. Try it today!",
-    link: "https://praizee.github.io/App-Landing-Page/",
-    github: "https://github.com/Praizee/App-Landing-Page",
-  },
-];
+// projectData2
+import { projectData2 } from "./projects/content";
 
 const Work = () => {
   return (
@@ -92,8 +47,8 @@ const Work = () => {
             autoplay
             pagination={{ clickable: true }}
           >
-            {/* Show only the first 4 projects for the slides */}
-            {projectData.slice(0, 4).map((project, index) => {
+            {/* Show only the first 6 projects for the slides */}
+            {projectData2.slice(0, 6).map((project, index) => {
               return (
                 <SwiperSlide key={index} className="pb-12">
                   <ProjectCard project={project} />
