@@ -21,6 +21,13 @@ const nextConfig = {
         port: "",
         pathname: "/dbiegrtmj/image/**",
       },
+      {
+        protocol: "https",
+        hostname: "res.cloudinary.com",
+        // https://res.cloudinary.com/stephen1407/image/upload/v1709501393/iPhone-12-Mini-news-blog-website01.netlify.app_eolegx.png
+        port: "",
+        pathname: "/stephen1407/image/**",
+      },
     ],
   },
 };
