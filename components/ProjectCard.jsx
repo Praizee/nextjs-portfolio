@@ -10,8 +10,9 @@ const ProjectCard = ({ project }) => {
       <CardHeader className="p-0">
         {/* Image */}
         <div className="relative w-full h-[300px] flex items-center justify-center bg-tertiary dark:bg-secondary/40 xl:bg-work_project_bg_light xl:dark:bg-work_project_bg_dark xl:bg-[110%] xl:bg-no-repeat overflow-hidden">
+          {/* h-[482px] */}
           <Image
-            className="absolute bottom-0 shadow-2xl"
+            className="absolute top-0 shadow-2xl"
             // w-auto h-auto
             src={project.image}
             width={245}
@@ -46,8 +47,10 @@ const ProjectCard = ({ project }) => {
         <Badge className="uppercase text-sm font-medium mb-2 absolute top-4 left-5">
           {project.category}
         </Badge>
-        <h4 className="h4 mb-1">{project.name}</h4>
-        <p className="text-muted-foreground text-lg">{project.description}</p>
+        <div className="h-32 overflow-y-auto">
+          <h4 className="h4 mb-1">{project.name}</h4>
+          <p className="text-muted-foreground text-lg">{project.description}</p>
+        </div>
       </div>
     </Card>
   );
