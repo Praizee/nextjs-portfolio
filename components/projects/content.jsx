@@ -13,7 +13,7 @@ export const projectData = [
   },
   {
     image:
-      "https://res.cloudinary.com/dbiegrtmj/image/upload/v1709423265/iPhone-12-Mini-geegpay-challenge.vercel.app_m04ry8.png",
+      "https://res.cloudinary.com/stephen1407/image/upload/v1709423265/iPhone-12-Mini-geegpay-challenge.vercel.app_m04ry8.png",
     category: "next.js",
     name: "Geegpay Analytics Dashboard",
     description:
@@ -23,7 +23,7 @@ export const projectData = [
   },
   {
     image:
-      "https://res.cloudinary.com/dbiegrtmj/image/upload/v1709423286/iPhone-12-Mini-talent-assessment.vercel.app_nf4zxf.png",
+      "https://res.cloudinary.com/stephen1407/image/upload/v1709423286/iPhone-12-Mini-talent-assessment.vercel.app_nf4zxf.png",
     category: "next.js",
     name: "ClearLink Landing Page",
     description:
@@ -34,7 +34,7 @@ export const projectData = [
   {
     image: "/work/financial-dashboard.png",
     image:
-      "https://res.cloudinary.com/dbiegrtmj/image/upload/v1709423482/iPhone-12-Mini-nextjs-dashboard-eight-zeta-22.vercel.app_fenump.png",
+      "https://res.cloudinary.com/stephen1407/image/upload/v1709423482/iPhone-12-Mini-nextjs-dashboard-eight-zeta-22.vercel.app_fenump.png",
     category: "next.js",
     name: "Financial Dashboard",
     description:
@@ -54,7 +54,7 @@ export const projectData = [
   },
   {
     image:
-      "https://res.cloudinary.com/dbiegrtmj/image/upload/v1709423614/iPhone-12-Mini-airruppies-admin-dashboard.netlify.app_bxcysl.png",
+      "https://res.cloudinary.com/stephen1407/image/upload/v1709423614/iPhone-12-Mini-airruppies-admin-dashboard.netlify.app_bxcysl.png",
     category: "react.js",
     name: "AirRuppies Admin Dashboard",
     description:
@@ -77,7 +77,7 @@ export const projectData = [
   {
     // image: "/work/payment-wallet.png",
     image:
-      "https://res.cloudinary.com/dbiegrtmj/image/upload/v1709423770/iPhone-12-Mini-digital-payment-wallett.netlify.app_k5360v.png",
+      "https://res.cloudinary.com/stephen1407/image/upload/v1709423770/iPhone-12-Mini-digital-payment-wallett.netlify.app_k5360v.png",
     category: "react.js",
     // category: "react.js, Typescript",
     name: "Payment Wallet",
@@ -89,7 +89,7 @@ export const projectData = [
   {
     // image: "/work/chat-app.png",
     image:
-      "https://res.cloudinary.com/dbiegrtmj/image/upload/v1709474222/iPhone-12-Mini-realtime-chat-app-01.netlify.app_nu2znv.png",
+      "https://res.cloudinary.com/stephen1407/image/upload/v1709474222/iPhone-12-Mini-realtime-chat-app-01.netlify.app_nu2znv.png",
     category: "react.js",
     name: "Real-time Chat App",
     description:
@@ -100,7 +100,7 @@ export const projectData = [
   {
     // image: "/work/filmlane.png",
     image:
-      "https://res.cloudinary.com/dbiegrtmj/image/upload/v1709475003/iPhone-12-Mini-filmlane01.netlify.app_pyknto.png",
+      "https://res.cloudinary.com/stephen1407/image/upload/v1709475003/iPhone-12-Mini-filmlane01.netlify.app_pyknto.png",
     category: "HTML/CSS",
     name: "Movie Website",
     description:
@@ -133,7 +133,7 @@ export const projectData = [
   {
     // image: "/work/app-land.png",
     image:
-      "https://res.cloudinary.com/dbiegrtmj/image/upload/v1709474334/iPhone-12-Mini-praizee.github.io_ubqunn.png",
+      "https://res.cloudinary.com/stephen1407/image/upload/v1709474334/iPhone-12-Mini-praizee.github.io_ubqunn.png",
     category: "HTML/CSS",
     name: "App Landing Page",
     description:
@@ -156,7 +156,7 @@ export const projectData2 = [
   },
   {
     image:
-      "https://res.cloudinary.com/dbiegrtmj/image/upload/v1709423265/iPhone-12-Mini-geegpay-challenge.vercel.app_m04ry8.png",
+      "https://res.cloudinary.com/stephen1407/image/upload/v1709423265/iPhone-12-Mini-geegpay-challenge.vercel.app_m04ry8.png",
     category: "next.js",
     name: "Geegpay Analytics Dashboard",
     description: "Technologies: Next.js, Tailwind CSS, and React Chart-js",
@@ -165,7 +165,7 @@ export const projectData2 = [
   },
   {
     image:
-      "https://res.cloudinary.com/dbiegrtmj/image/upload/v1709423286/iPhone-12-Mini-talent-assessment.vercel.app_nf4zxf.png",
+      "https://res.cloudinary.com/stephen1407/image/upload/v1709423286/iPhone-12-Mini-talent-assessment.vercel.app_nf4zxf.png",
     category: "next.js",
     name: "ClearLink Landing Page",
     description: "Technologies: Next.js & Tailwind CSS",
@@ -174,7 +174,7 @@ export const projectData2 = [
   },
   {
     image:
-      "https://res.cloudinary.com/dbiegrtmj/image/upload/v1709423614/iPhone-12-Mini-airruppies-admin-dashboard.netlify.app_bxcysl.png",
+      "https://res.cloudinary.com/stephen1407/image/upload/v1709423614/iPhone-12-Mini-airruppies-admin-dashboard.netlify.app_bxcysl.png",
     category: "react.js",
     name: "AirRuppies Admin Dashboard",
     description: "Technologies: React.js & Tailwind CSS",
@@ -184,7 +184,7 @@ export const projectData2 = [
   {
     // image: "/work/payment-wallet.png",
     image:
-      "https://res.cloudinary.com/dbiegrtmj/image/upload/v1709423770/iPhone-12-Mini-digital-payment-wallett.netlify.app_k5360v.png",
+      "https://res.cloudinary.com/stephen1407/image/upload/v1709423770/iPhone-12-Mini-digital-payment-wallett.netlify.app_k5360v.png",
     category: "react.js",
     name: "Payment Wallet",
     description: "Technologies: React.js, Tailwind CSS, Typescript",
@@ -203,7 +203,7 @@ export const projectData2 = [
   {
     // image: "/work/chat-app.png",
     image:
-      "https://res.cloudinary.com/dbiegrtmj/image/upload/v1709474222/iPhone-12-Mini-realtime-chat-app-01.netlify.app_nu2znv.png",
+      "https://res.cloudinary.com/stephen1407/image/upload/v1709474222/iPhone-12-Mini-realtime-chat-app-01.netlify.app_nu2znv.png",
     category: "react.js",
     name: "Real-time Chat App",
     description: "Technologies: React.js, Tailwind CSS, Appwrite",
@@ -213,7 +213,7 @@ export const projectData2 = [
   {
     image: "/work/financial-dashboard.png",
     image:
-      "https://res.cloudinary.com/dbiegrtmj/image/upload/v1709423482/iPhone-12-Mini-nextjs-dashboard-eight-zeta-22.vercel.app_fenump.png",
+      "https://res.cloudinary.com/stephen1407/image/upload/v1709423482/iPhone-12-Mini-nextjs-dashboard-eight-zeta-22.vercel.app_fenump.png",
     category: "next.js",
     name: "Financial Dashboard",
     description:
@@ -224,7 +224,7 @@ export const projectData2 = [
   {
     // image: "/work/filmlane.png",
     image:
-      "https://res.cloudinary.com/dbiegrtmj/image/upload/v1709475003/iPhone-12-Mini-filmlane01.netlify.app_pyknto.png",
+      "https://res.cloudinary.com/stephen1407/image/upload/v1709475003/iPhone-12-Mini-filmlane01.netlify.app_pyknto.png",
     category: "HTML/CSS",
     name: "Movie Website",
     description: "Technologies: HTML, CSS",
@@ -234,7 +234,7 @@ export const projectData2 = [
   {
     // image: "/work/app-land.png",
     image:
-      "https://res.cloudinary.com/dbiegrtmj/image/upload/v1709474334/iPhone-12-Mini-praizee.github.io_ubqunn.png",
+      "https://res.cloudinary.com/stephen1407/image/upload/v1709474334/iPhone-12-Mini-praizee.github.io_ubqunn.png",
     category: "HTML/CSS",
     name: "App Landing Page",
     description: "Technologies: HTML, CSS, Bootstrap",
