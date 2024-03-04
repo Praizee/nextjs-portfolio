@@ -150,7 +150,7 @@ export const projectData2 = [
       "https://res.cloudinary.com/stephen1407/image/upload/v1709514130/iPhone-12-Mini-the-lazynerd-studios.vercel.app_xrerhy.png",
     category: "next.js",
     name: "Lazynerd Studios",
-    description: "Technologies: Next.js & Tailwind CSS",
+    description: "Technologies: Next.js, Tailwind CSS, Framer Motion",
     link: "https://the-lazynerd-studios.vercel.app/",
     github: "#",
   },
