@@ -3,6 +3,16 @@
 export const projectData = [
   {
     image:
+      "https://res.cloudinary.com/stephen1407/image/upload/v1709514130/iPhone-12-Mini-the-lazynerd-studios.vercel.app_xrerhy.png",
+    category: "next.js",
+    name: "Lazynerd Studios",
+    description:
+      "Lorem ipsum dolor sit amet rebum magna dolores blandit ea et et duo gubergren diam eirmod invidunt iusto et in",
+    link: "https://the-lazynerd-studios.vercel.app/",
+    github: "#",
+  },
+  {
+    image:
       "https://res.cloudinary.com/dbiegrtmj/image/upload/v1709423265/iPhone-12-Mini-geegpay-challenge.vercel.app_m04ry8.png",
     category: "next.js",
     name: "Geegpay Analytics Dashboard",
@@ -135,6 +145,15 @@ export const projectData = [
 
 // carousel
 export const projectData2 = [
+  {
+    image:
+      "https://res.cloudinary.com/stephen1407/image/upload/v1709514130/iPhone-12-Mini-the-lazynerd-studios.vercel.app_xrerhy.png",
+    category: "next.js",
+    name: "Lazynerd Studios",
+    description: "Technologies: Next.js & Tailwind CSS",
+    link: "https://the-lazynerd-studios.vercel.app/",
+    github: "#",
+  },
   {
     image:
       "https://res.cloudinary.com/dbiegrtmj/image/upload/v1709423265/iPhone-12-Mini-geegpay-challenge.vercel.app_m04ry8.png",
