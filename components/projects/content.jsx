@@ -3,6 +3,16 @@
 export const projectData = [
   {
     image:
+      "https://res.cloudinary.com/stephen1407/image/upload/v1709673890/iPhone-12-Mini-brainwave-app-14.vercel.app_zdahws.png",
+    category: "react.js",
+    name: "Brainwave AI Chat App",
+    description:
+      "Lorem ipsum dolor sit amet rebum magna dolores blandit ea et et duo gubergren diam eirmod invidunt iusto et in",
+    link: "https://brainwave-app-14.vercel.app/",
+    github: "https://github.com/Praizee/brainwave-app",
+  },
+  {
+    image:
       "https://res.cloudinary.com/stephen1407/image/upload/v1709514130/iPhone-12-Mini-the-lazynerd-studios.vercel.app_xrerhy.png",
     category: "next.js",
     name: "Lazynerd Studios",
@@ -145,6 +155,15 @@ export const projectData = [
 
 // carousel
 export const projectData2 = [
+  {
+    image:
+      "https://res.cloudinary.com/stephen1407/image/upload/v1709673890/iPhone-12-Mini-brainwave-app-14.vercel.app_zdahws.png",
+    category: "react.js",
+    name: "Brainwave AI Chat App",
+    description: "Technologies: React.js, Tailwind CSS, React Just Parallax, React Scroll Lock",
+    link: "https://brainwave-app-14.vercel.app/",
+    github: "https://github.com/Praizee/brainwave-app",
+  },
   {
     image:
       "https://res.cloudinary.com/stephen1407/image/upload/v1709514130/iPhone-12-Mini-the-lazynerd-studios.vercel.app_xrerhy.png",
