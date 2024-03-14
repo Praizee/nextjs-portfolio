@@ -16,6 +16,9 @@ export const metadata = {
     default: "Stephen Adeniji | Home",
   },
   description: `Stephen Adeniji's Portfolio Website`,
+  verification: {
+    google: "-l_9xMDmPYXcaA9WW6Xv3IoS2AqNaAzn1B6lTKIndpU",
+  },
   alternates: {
     canonical: "/",
     languages: {
