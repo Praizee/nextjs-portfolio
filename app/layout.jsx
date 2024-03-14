@@ -19,6 +19,19 @@ export const metadata = {
   verification: {
     google: "-l_9xMDmPYXcaA9WW6Xv3IoS2AqNaAzn1B6lTKIndpU",
   },
+  referrer: "origin-when-cross-origin",
+  keywords: [
+    "Stephen",
+    "Adeniji",
+    "Stephen Adeniji",
+    "Portfolio",
+    "Website",
+    "Portfolio Website",
+  ],
+  authors: [
+    { name: "Adeniji" },
+    { name: "Stephen", url: "https://stephen-adeniji.vercel.app/" },
+  ],
   alternates: {
     canonical: "/",
     languages: {
