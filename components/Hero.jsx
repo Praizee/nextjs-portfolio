@@ -23,8 +23,8 @@ const Hero = () => {
               <div className="text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]">
                 Front End Web Developer
               </div>
-              <h1 className="h1">Hi there! 👋🏽</h1>
-              <h2 className="h2 text-2xl">I'm Stephen Adeniji,</h2>
+              <h2 className="h1">Hi there! 👋🏽</h2>
+              <h1 className="h2 text-2xl">I'm Stephen Adeniji,</h1>
               <p className="subtitle max-w-[490px] mx-auto xl:mx-0">
                 A passionate front-end developer dedicated to creating immersive
                 and user-friendly web experiences. With a keen eye for design
