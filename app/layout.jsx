@@ -1,4 +1,5 @@
 import { Outfit } from "next/font/google";
+import Head from "next/head";
 import "./globals.css";
 import { ThemeProvider } from "@/components/ThemeProvider";
 import Header from "@/components/Header";
@@ -30,6 +31,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <Head>
+        <meta
+          name="google-site-verification"
+          content="-l_9xMDmPYXcaA9WW6Xv3IoS2AqNaAzn1B6lTKIndpU"
+        />
+      </Head>
       <body className={outfit.className}>
         <ThemeProvider attribute="class" defaultTheme="system">
           <Header />
