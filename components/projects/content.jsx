@@ -3,6 +3,16 @@
 export const projectData = [
   {
     image:
+      "https://res.cloudinary.com/stephen1407/image/upload/v1710547150/iPhone-12-Mini-traffic-tracker-application.vercel.app_mn2a8j.png",
+    category: "react.js",
+    name: "Traffic Tracker App",
+    description:
+      "Lorem ipsum dolor sit amet rebum magna dolores blandit ea et et duo gubergren diam eirmod invidunt iusto et in",
+    link: "https://traffic-tracker-application.vercel.app/",
+    github: "https://github.com/Praizee/Traffic-Tracker-Application",
+  },
+  {
+    image:
       "https://res.cloudinary.com/stephen1407/image/upload/v1709673890/iPhone-12-Mini-brainwave-app-14.vercel.app_zdahws.png",
     category: "react.js",
     name: "Brainwave AI Chat App",
@@ -155,6 +165,15 @@ export const projectData = [
 
 // carousel
 export const projectData2 = [
+  {
+    image:
+      "https://res.cloudinary.com/stephen1407/image/upload/v1710547150/iPhone-12-Mini-traffic-tracker-application.vercel.app_mn2a8j.png",
+    category: "react.js",
+    name: "Traffic Tracker App",
+    description: "Technologies: React.js, Tailwind CSS, DaisyUI",
+    link: "https://traffic-tracker-application.vercel.app/",
+    github: "https://github.com/Praizee/Traffic-Tracker-Application",
+  },
   {
     image:
       "https://res.cloudinary.com/stephen1407/image/upload/v1709673890/iPhone-12-Mini-brainwave-app-14.vercel.app_zdahws.png",
