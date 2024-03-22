@@ -25,6 +25,8 @@ export const metadata = {
     "Adeniji",
     "Stephen Adeniji",
     "Portfolio",
+    "Projects",
+    "Contact",
     "Website",
     "Portfolio Website",
   ],
