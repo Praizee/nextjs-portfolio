@@ -22,8 +22,10 @@ export const metadata = {
   referrer: "origin-when-cross-origin",
   keywords: [
     "Stephen",
+    "Adeola",
     "Adeniji",
     "Stephen Adeniji",
+    "Stephen Adeola Adeniji",
     "Portfolio",
     "Projects",
     "Contact",
