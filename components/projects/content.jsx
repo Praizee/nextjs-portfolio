@@ -18,7 +18,8 @@ export const projectData = [
     name: "Brainwave AI Chat App",
     description:
       "Lorem ipsum dolor sit amet rebum magna dolores blandit ea et et duo gubergren diam eirmod invidunt iusto et in",
-    link: "https://brainwave-app-14.vercel.app/",
+    // link: "https://brainwave-app-14.vercel.app/",
+    link: "#",
     github: "https://github.com/Praizee/brainwave-app",
   },
   {
@@ -179,8 +180,10 @@ export const projectData2 = [
       "https://res.cloudinary.com/stephen1407/image/upload/v1709673890/iPhone-12-Mini-brainwave-app-14.vercel.app_zdahws.png",
     category: "react.js",
     name: "Brainwave AI Chat App",
-    description: "Technologies: React.js, Tailwind CSS, React Just Parallax, React Scroll Lock",
-    link: "https://brainwave-app-14.vercel.app/",
+    description:
+      "Technologies: React.js, Tailwind CSS, React Just Parallax, React Scroll Lock",
+    // link: "https://brainwave-app-14.vercel.app/",
+    link: "#",
     github: "https://github.com/Praizee/brainwave-app",
   },
   {
