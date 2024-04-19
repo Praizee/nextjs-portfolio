@@ -15,7 +15,7 @@ const infoData = [
   { icon: <PhoneCall size={20} />, text: "+234 902 892 3853" },
   { icon: <MailIcon size={20} />, text: "adeolaastephen@gmail.com" },
   { icon: <MapPin size={20} />, text: "Lagos, Nigeria" },
-  { icon: <GraduationCap size={20} />, text: "B.Sc in Computer Science" },
+  // { icon: <GraduationCap size={20} />, text: "B.Sc in Computer Science" },
 ];
 
 const qualificationData = [
