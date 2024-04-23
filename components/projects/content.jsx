@@ -18,8 +18,7 @@ export const projectData = [
     name: "Brainwave AI Chat App",
     description:
       "Lorem ipsum dolor sit amet rebum magna dolores blandit ea et et duo gubergren diam eirmod invidunt iusto et in",
-    // link: "https://brainwave-app-14.vercel.app/",
-    link: "#",
+    link: "https://brainwave-app-14.vercel.app/",
     github: "https://github.com/Praizee/brainwave-app",
   },
   {
@@ -182,8 +181,7 @@ export const projectData2 = [
     name: "Brainwave AI Chat App",
     description:
       "Technologies: React.js, Tailwind CSS, React Just Parallax, React Scroll Lock",
-    // link: "https://brainwave-app-14.vercel.app/",
-    link: "#",
+    link: "https://brainwave-app-14.vercel.app/",
     github: "https://github.com/Praizee/brainwave-app",
   },
   {
