@@ -3,6 +3,16 @@
 export const projectData = [
   {
     image:
+      "https://res.cloudinary.com/stephen1407/image/upload/v1714173005/iPhone-12-Mini-dyno-docs.vercel.app_yjrqhq.png",
+    category: "next.js",
+    name: "Dyno Documentation Website",
+    description:
+      "Lorem ipsum dolor sit amet rebum magna dolores blandit ea et et duo gubergren diam eirmod invidunt iusto et in",
+    link: "https://dyno-docs.vercel.app/",
+    github: "#",
+  },
+  {
+    image:
       "https://res.cloudinary.com/stephen1407/image/upload/v1710547150/iPhone-12-Mini-traffic-tracker-application.vercel.app_mn2a8j.png",
     category: "react.js",
     name: "Traffic Tracker App",
@@ -165,6 +175,15 @@ export const projectData = [
 
 // carousel
 export const projectData2 = [
+  {
+    image:
+      "https://res.cloudinary.com/stephen1407/image/upload/v1714173005/iPhone-12-Mini-dyno-docs.vercel.app_yjrqhq.png",
+    category: "next.js",
+    name: "Dyno Documentation Website",
+    description: "Technologies: Next.js, Tailwind CSS, FloatUI",
+    link: "https://dyno-docs.vercel.app/",
+    github: "#",
+  },
   {
     image:
       "https://res.cloudinary.com/stephen1407/image/upload/v1710547150/iPhone-12-Mini-traffic-tracker-application.vercel.app_mn2a8j.png",
