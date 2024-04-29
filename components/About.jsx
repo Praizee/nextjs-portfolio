@@ -78,7 +78,7 @@ const skillsData = [
       },
       {
         title: "Frameworks",
-        list: "Next.js",
+        list: "Next.js, React Native, Expo",
       },
       {
         title: "Version Control",
