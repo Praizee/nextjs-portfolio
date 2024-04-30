@@ -40,12 +40,12 @@ const qualificationData = [
       {
         company: "Voltwolf Limited",
         role: "React Developer",
-        years: "Jan 2024 - Present",
+        years: "March 2024 - Present",
       },
       {
         company: "Voltwolf Limited",
         role: "Frontend Intern",
-        years: "Aug - Dec.  2023",
+        years: "Aug 2023 - Feb 2024",
       },
       {
         company: "ICT Networld",
