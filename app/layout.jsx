@@ -17,8 +17,7 @@ export const metadata = {
   },
   description: `Stephen Adeniji's Portfolio Website`,
   verification: {
-    // google: "-l_9xMDmPYXcaA9WW6Xv3IoS2AqNaAzn1B6lTKIndpU",
-    google: "q_gak-J1lGaJGfTDefA3U-pidifSLpy_BtiN7Aqzvt4",
+    google: "-l_9xMDmPYXcaA9WW6Xv3IoS2AqNaAzn1B6lTKIndpU",
   },
   referrer: "origin-when-cross-origin",
   keywords: [
