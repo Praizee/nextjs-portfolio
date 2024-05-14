@@ -10,6 +10,7 @@ const outfit = Outfit({ subsets: ["latin"] });
 
 export const metadata = {
   metadataBase: new URL("https://stephen-adeniji.vercel.app/"),
+  // https://stephen-adeniji.is-a.dev/
 
   title: {
     template: "Stephen Adeniji | %s",
@@ -24,6 +25,7 @@ export const metadata = {
     "Stephen",
     "Adeola",
     "Adeniji",
+    "Stephen Adeola",
     "Stephen Adeniji",
     "Stephen Adeola Adeniji",
     "Portfolio",
@@ -31,6 +33,10 @@ export const metadata = {
     "Contact",
     "Website",
     "Portfolio Website",
+    "Stephen Adeniji Portfolio",
+    "Stephen Adeola Portfolio",
+    "Stephen Adeniji Portfolio Website",
+    "Stephen Adeola Adeniji Portfolio Website",
   ],
   authors: [
     { name: "Adeniji" },
