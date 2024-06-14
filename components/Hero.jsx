@@ -40,16 +40,17 @@ const Hero = () => {
                   Contact Me <Send size={18} />
                 </Button>
               </Link>
-              <a
-                href="/assets/Stephen Adeniji Frontend Developer Resume.pdf"
-                download="Stephen Adeniji Resume.pdf"
+              <Link
+                // href="/assets/Stephen Adeniji Frontend Developer Resume.pdf"
+                href="https://1drv.ms/b/s!Aq-10ZZ07HINgZgVbTKMAA1VZayTRQ?e=Fhj7Ds"
+                // download="Stephen Adeniji Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <Button variant="secondary" className="gap-x-2">
                   Download CV <Download size={18} />
                 </Button>
-              </a>
+              </Link>
             </div>
 
             {/* Socials */}
