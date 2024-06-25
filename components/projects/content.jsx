@@ -82,16 +82,16 @@ export const projectData = [
     link: "https://car-showcase-app-seven.vercel.app/",
     github: "https://github.com/Praizee/car-showcase-app",
   },
-  {
-    image:
-      "https://res.cloudinary.com/stephen1407/image/upload/v1709423614/iPhone-12-Mini-airruppies-admin-dashboard.netlify.app_bxcysl.png",
-    category: "react.js",
-    name: "AirRuppies Admin Dashboard",
-    description:
-      "Lorem ipsum dolor sit amet rebum magna dolores blandit ea et et duo gubergren diam eirmod invidunt iusto et in",
-    link: "https://airruppies-admin-dashboard.netlify.app/",
-    github: "#",
-  },
+  // {
+  //   image:
+  //     "https://res.cloudinary.com/stephen1407/image/upload/v1709423614/iPhone-12-Mini-airruppies-admin-dashboard.netlify.app_bxcysl.png",
+  //   category: "react.js",
+  //   name: "AirRuppies Admin Dashboard",
+  //   description:
+  //     "Lorem ipsum dolor sit amet rebum magna dolores blandit ea et et duo gubergren diam eirmod invidunt iusto et in",
+  //   link: "https://airruppies-admin-dashboard.netlify.app/",
+  //   github: "#",
+  // },
   {
     // image: "/work/payment-wallet.png",
     image:
@@ -230,15 +230,15 @@ export const projectData2 = [
     link: "https://talent-assessment.vercel.app/",
     github: "https://github.com/Praizee/talent-assessment",
   },
-  {
-    image:
-      "https://res.cloudinary.com/stephen1407/image/upload/v1709423614/iPhone-12-Mini-airruppies-admin-dashboard.netlify.app_bxcysl.png",
-    category: "react.js",
-    name: "AirRuppies Admin Dashboard",
-    description: "Technologies: React.js & Tailwind CSS",
-    link: "https://airruppies-admin-dashboard.netlify.app/",
-    github: "#",
-  },
+  // {
+  //   image:
+  //     "https://res.cloudinary.com/stephen1407/image/upload/v1709423614/iPhone-12-Mini-airruppies-admin-dashboard.netlify.app_bxcysl.png",
+  //   category: "react.js",
+  //   name: "AirRuppies Admin Dashboard",
+  //   description: "Technologies: React.js & Tailwind CSS",
+  //   link: "https://airruppies-admin-dashboard.netlify.app/",
+  //   github: "#",
+  // },
   {
     // image: "/work/payment-wallet.png",
     image:
