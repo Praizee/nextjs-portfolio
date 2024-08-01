@@ -175,16 +175,7 @@ export const projectData = [
 
 // carousel
 export const projectData2 = [
-  {
-    image:
-      "https://res.cloudinary.com/stephen1407/image/upload/v1714173005/iPhone-12-Mini-dyno-docs.vercel.app_yjrqhq.png",
-    category: "next.js",
-    name: "Dyno Documentation Website",
-    description: "Technologies: Next.js, Tailwind CSS, FloatUI",
-    link: "https://dyno-docs.vercel.app/",
-    github: "#",
-  },
-  {
+ {
     image:
       "https://res.cloudinary.com/stephen1407/image/upload/v1710547150/iPhone-12-Mini-traffic-tracker-application.vercel.app_mn2a8j.png",
     category: "react.js",
@@ -221,23 +212,14 @@ export const projectData2 = [
     link: "https://geegpay-challenge.vercel.app/",
     github: "https://github.com/Praizee/geegpay-challenge",
   },
-  {
-    image:
-      "https://res.cloudinary.com/stephen1407/image/upload/v1709423286/iPhone-12-Mini-talent-assessment.vercel.app_nf4zxf.png",
-    category: "next.js",
-    name: "ClearLink Landing Page",
-    description: "Technologies: Next.js & Tailwind CSS",
-    link: "https://talent-assessment.vercel.app/",
-    github: "https://github.com/Praizee/talent-assessment",
-  },
   // {
   //   image:
-  //     "https://res.cloudinary.com/stephen1407/image/upload/v1709423614/iPhone-12-Mini-airruppies-admin-dashboard.netlify.app_bxcysl.png",
-  //   category: "react.js",
-  //   name: "AirRuppies Admin Dashboard",
-  //   description: "Technologies: React.js & Tailwind CSS",
-  //   link: "https://airruppies-admin-dashboard.netlify.app/",
-  //   github: "#",
+  //     "https://res.cloudinary.com/stephen1407/image/upload/v1709423286/iPhone-12-Mini-talent-assessment.vercel.app_nf4zxf.png",
+  //   category: "next.js",
+  //   name: "ClearLink Landing Page",
+  //   description: "Technologies: Next.js & Tailwind CSS",
+  //   link: "https://talent-assessment.vercel.app/",
+  //   github: "https://github.com/Praizee/talent-assessment",
   // },
   {
     // image: "/work/payment-wallet.png",
@@ -250,15 +232,6 @@ export const projectData2 = [
     github: "https://github.com/Praizee/Digital-Payment-Wallett",
   },
   {
-    image: "/work/car-hub.png",
-    category: "next.js",
-    // gsap
-    name: "Car Hub - Car Showcase",
-    description: "Technologies: React.js, Tailwind CSS, RapidAPI",
-    link: "https://car-showcase-app-seven.vercel.app/",
-    github: "https://github.com/Praizee/car-showcase-app",
-  },
-  {
     // image: "/work/chat-app.png",
     image:
       "https://res.cloudinary.com/stephen1407/image/upload/v1709474222/iPhone-12-Mini-realtime-chat-app-01.netlify.app_nu2znv.png",
@@ -268,35 +241,15 @@ export const projectData2 = [
     link: "https://realtime-chat-app-01.netlify.app/",
     github: "#",
   },
-  {
-    image: "/work/financial-dashboard.png",
-    image:
-      "https://res.cloudinary.com/stephen1407/image/upload/v1709423482/iPhone-12-Mini-nextjs-dashboard-eight-zeta-22.vercel.app_fenump.png",
-    category: "next.js",
-    name: "Financial Dashboard",
-    description:
-      "Technologies: Next.js, Tailwind CSS, and Vercel Postgres (Database)",
-    link: "https://nextjs-dashboard-eight-zeta-22.vercel.app/",
-    github: "https://github.com/Praizee/nextjs-dashboard",
-  },
-  {
-    // image: "/work/filmlane.png",
-    image:
-      "https://res.cloudinary.com/stephen1407/image/upload/v1709475003/iPhone-12-Mini-filmlane01.netlify.app_pyknto.png",
-    category: "HTML/CSS",
-    name: "Movie Website",
-    description: "Technologies: HTML, CSS",
-    link: "https://filmlane01.netlify.app/",
-    github: "#",
-  },
-  {
-    // image: "/work/app-land.png",
-    image:
-      "https://res.cloudinary.com/stephen1407/image/upload/v1709474334/iPhone-12-Mini-praizee.github.io_ubqunn.png",
-    category: "HTML/CSS",
-    name: "App Landing Page",
-    description: "Technologies: HTML, CSS, Bootstrap",
-    link: "https://praizee.github.io/App-Landing-Page/",
-    github: "https://github.com/Praizee/App-Landing-Page",
-  },
+  // {
+  //   image: "/work/financial-dashboard.png",
+  //   image:
+  //     "https://res.cloudinary.com/stephen1407/image/upload/v1709423482/iPhone-12-Mini-nextjs-dashboard-eight-zeta-22.vercel.app_fenump.png",
+  //   category: "next.js",
+  //   name: "Financial Dashboard",
+  //   description:
+  //     "Technologies: Next.js, Tailwind CSS, and Vercel Postgres (Database)",
+  //   link: "https://nextjs-dashboard-eight-zeta-22.vercel.app/",
+  //   github: "https://github.com/Praizee/nextjs-dashboard",
+  // },
 ];
