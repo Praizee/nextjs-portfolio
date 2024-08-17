@@ -66,7 +66,7 @@ const skillsData = [
       },
       {
         title: "Styles",
-        list: "CSS3, Bootstrap, Tailwind CSS",
+        list: "CSS3, Tailwind, SCSS",
       },
       {
         title: "Programming Languages",
@@ -341,15 +341,17 @@ const About = () => {
                           (item, index) => {
                             const { imgPath } = item;
                             return (
-                              <div>
-                                <Image
-                                  src={imgPath}
-                                  width={48}
-                                  height={48}
-                                  alt={item.title}
-                                  title={item.title}
-                                  priority
-                                />
+                              <div className="flex flex-col">
+                                <span className="hover:scale-110 duration-200 cursor-pointer">
+                                  <Image
+                                    src={imgPath}
+                                    width={48}
+                                    height={48}
+                                    alt={item.title}
+                                    title={item.title}
+                                    priority
+                                  />
+                                </span>
                                 <p className="text-xs mt-1 text-primary">
                                   {item.title}
                                 </p>
