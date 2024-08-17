@@ -1,4 +1,11 @@
-import { GanttChartSquare, Blocks, Gem } from "lucide-react";
+import {
+  GanttChartSquare,
+  Blocks,
+  Gem,
+  Rocket,
+  Code,
+  Globe,
+} from "lucide-react";
 import {
   Card,
   CardContent,
@@ -9,10 +16,10 @@ import {
 
 const servicesData = [
   {
-    icon: <GanttChartSquare size={72} strokeWidth={0.8} />,
-    title: "UI/UX Design",
+    icon: <Globe size={72} strokeWidth={0.8} />,
+    title: "Web Development",
     description:
-      "Shaping digital experiences through thoughtful and user-centric design. From wireframes to polished interfaces, I focus on creating visually appealing and intuitively navigable designs. Elevate your brand with engaging and user-friendly interfaces.",
+      "Crafting dynamic and responsive websites tailored to your needs. From conceptualization to deployment, I ensure seamless user experiences. Additionally, I offer ongoing maintenance to keep your web presence optimized and up-to-date.",
   },
   {
     icon: <Blocks size={72} strokeWidth={0.8} />,
@@ -21,11 +28,11 @@ const servicesData = [
       "Bringing your ideas to life with custom mobile applications. I specialize in developing intuitive and feature-rich apps for various platforms. Whether it's iOS or Android, I create solutions that elevate user engagement and satisfaction.",
   },
   {
-    icon: <Gem size={72} strokeWidth={0.8} />,
-    title: "Web Development",
+    icon: <Rocket size={72} strokeWidth={0.8} />,
+    title: "Performance Optimization",
     description:
-      "Crafting dynamic and responsive websites tailored to your needs. From conceptualization to deployment, I ensure seamless user experiences. Additionally, I offer ongoing maintenance to keep your web presence optimized and up-to-date.",
-    // " I design and build websites for corporate or individual clients. I work with colleagues and clients to understand website requirements and client needs. I write, tests, and debug code and applications.",
+      "Boost your site's visibility, search engine rankings, speed, and user experience with expert SEO strategies, performance enhancements, and UI improvements for a smoother and more engaging experience.",
+    // "Enhancing your website’s visibility, speed, and usability with expert SEO strategies, performance optimization, and UI improvements. I focus on improving search engine rankings, reducing load times, and fixing or refining your user interface for a faster, smoother, and more engaging experience.",
   },
 ];
 
