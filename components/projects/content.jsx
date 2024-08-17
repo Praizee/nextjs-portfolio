@@ -3,6 +3,16 @@
 export const projectData = [
   {
     image:
+      "https://res.cloudinary.com/stephen1407/image/upload/v1723893065/iPhone-12-Mini-devlinks-hng.vercel.app_sc5xfh.png",
+    category: "react.js",
+    name: "DevLinks - Links Sharing App",
+    description:
+      "Lorem ipsum dolor sit amet rebum magna dolores blandit ea et et duo gubergren diam eirmod invidunt iusto et in",
+    link: "https://devlinks-hng.vercel.app/",
+    github: "https://github.com/Praizee/devlinks-hng/",
+  },
+  {
+    image:
       "https://res.cloudinary.com/stephen1407/image/upload/v1714173005/iPhone-12-Mini-dyno-docs.vercel.app_yjrqhq.png",
     category: "next.js",
     name: "Dyno Documentation Website",
@@ -175,7 +185,16 @@ export const projectData = [
 
 // carousel
 export const projectData2 = [
- {
+  {
+    image:
+      "https://res.cloudinary.com/stephen1407/image/upload/v1723893065/iPhone-12-Mini-devlinks-hng.vercel.app_sc5xfh.png",
+    category: "react.js",
+    name: "DevLinks - Links Sharing App",
+    description: "Technologies: Next.js, Firebase, Tailwind CSS, Framer Motion",
+    link: "https://devlinks-hng.vercel.app/",
+    github: "https://github.com/Praizee/devlinks-hng/",
+  },
+  {
     image:
       "https://res.cloudinary.com/stephen1407/image/upload/v1710547150/iPhone-12-Mini-traffic-tracker-application.vercel.app_mn2a8j.png",
     category: "react.js",
