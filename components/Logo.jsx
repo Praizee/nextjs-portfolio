@@ -10,7 +10,7 @@ const Logo = () => {
         height={65}
         priority
         alt="Logo"
-        // className="w-max h-max"
+        className="w-[65px] h-auto"
       />
     </Link>
   );

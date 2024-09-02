@@ -18,7 +18,7 @@ const Nav = ({ containerStyles, linkStyles, underlineStyles }) => {
           <Link
             href={link.path}
             key={index}
-            className={`capitalize ${linkStyles}`}
+            className={`capitalize ${linkStyles} group duration-300 transition`}
           >
             {link.path === path && (
               <motion.span
@@ -30,6 +30,7 @@ const Nav = ({ containerStyles, linkStyles, underlineStyles }) => {
               />
             )}
             {link.name}
+            <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-primary" />
           </Link>
         );
       })}
