@@ -1,7 +1,7 @@
 import { Outfit } from "next/font/google";
 import Head from "next/head";
 import "./globals.css";
-import { ThemeProvider } from "@/components/ThemeProvider";
+import { ThemeProvider, ProgressBarProvider } from "@/components/Providers";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import BackToTopButton from "@/components/BackToTopButton";
@@ -69,10 +69,12 @@ export default function RootLayout({ children }) {
       </Head>
       <body className={outfit.className}>
         <ThemeProvider attribute="class" defaultTheme="system">
-          <Header />
-          {children}
-          <BackToTopButton />
-          <Footer />
+          <ProgressBarProvider>
+            <Header />
+            {children}
+            <BackToTopButton />
+            <Footer />
+          </ProgressBarProvider>
         </ThemeProvider>
       </body>
     </html>
