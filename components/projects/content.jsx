@@ -4,22 +4,12 @@ export const projectData = [
   {
     image:
       "https://res.cloudinary.com/stephen1407/image/upload/v1723893065/iPhone-12-Mini-devlinks-hng.vercel.app_sc5xfh.png",
-    category: "react.js",
+    category: "next.js",
     name: "DevLinks - Links Sharing App",
     description:
       "Lorem ipsum dolor sit amet rebum magna dolores blandit ea et et duo gubergren diam eirmod invidunt iusto et in",
     link: "https://devlinks-hng.vercel.app/",
     github: "https://github.com/Praizee/devlinks-hng/",
-  },
-  {
-    image:
-      "https://res.cloudinary.com/stephen1407/image/upload/v1714173005/iPhone-12-Mini-dyno-docs.vercel.app_yjrqhq.png",
-    category: "next.js",
-    name: "Dyno Documentation Website",
-    description:
-      "Lorem ipsum dolor sit amet rebum magna dolores blandit ea et et duo gubergren diam eirmod invidunt iusto et in",
-    link: "https://dyno-docs.vercel.app/",
-    github: "#",
   },
   {
     image:
@@ -71,49 +61,18 @@ export const projectData = [
     link: "https://talent-assessment.vercel.app/",
     github: "https://github.com/Praizee/talent-assessment",
   },
-  {
-    image: "/work/financial-dashboard.png",
-    image:
-      "https://res.cloudinary.com/stephen1407/image/upload/v1709423482/iPhone-12-Mini-nextjs-dashboard-eight-zeta-22.vercel.app_fenump.png",
-    category: "next.js",
-    name: "Financial Dashboard",
-    description:
-      "Effortlessly manage invoices and customers with our Financial Dashboard. Built on Next.js, it provides a seamless experience for creating, editing, and deleting invoices, enhancing your financial workflow",
-    link: "https://nextjs-dashboard-eight-zeta-22.vercel.app/",
-    github: "https://github.com/Praizee/nextjs-dashboard",
-  },
-  {
-    image: "/work/car-hub.png",
-    category: "next.js",
-    // gsap
-    name: "Car Hub - Car Showcase",
-    description:
-      "Lorem ipsum dolor sit amet rebum magna dolores blandit ea et et duo gubergren diam eirmod invidunt iusto et in",
-    link: "https://car-showcase-app-seven.vercel.app/",
-    github: "https://github.com/Praizee/car-showcase-app",
-  },
   // {
+  //   // image: "/work/payment-wallet.png",
   //   image:
-  //     "https://res.cloudinary.com/stephen1407/image/upload/v1709423614/iPhone-12-Mini-airruppies-admin-dashboard.netlify.app_bxcysl.png",
+  //     "https://res.cloudinary.com/stephen1407/image/upload/v1709502844/iPhone-12-Mini-adorable-monstera-54dd37.netlify.app_fs8nd5.png",
   //   category: "react.js",
-  //   name: "AirRuppies Admin Dashboard",
+  //   // category: "react.js, Typescript",
+  //   name: "BIZPAY - Payment System",
   //   description:
-  //     "Lorem ipsum dolor sit amet rebum magna dolores blandit ea et et duo gubergren diam eirmod invidunt iusto et in",
-  //   link: "https://airruppies-admin-dashboard.netlify.app/",
-  //   github: "#",
+  //     "Our application allows small business owners to easily create profiles, track payment transactions, and receive real-time alerts for unpaid invoices.",
+  //   link: "https://adorable-monstera-54dd37.netlify.app/",
+  //   github: "https://github.com/sparkle666/Bizpay",
   // },
-  {
-    // image: "/work/payment-wallet.png",
-    image:
-      "https://res.cloudinary.com/stephen1407/image/upload/v1709502844/iPhone-12-Mini-adorable-monstera-54dd37.netlify.app_fs8nd5.png",
-    category: "react.js",
-    // category: "react.js, Typescript",
-    name: "BIZPAY - Payment System",
-    description:
-      "Our application allows small business owners to easily create profiles, track payment transactions, and receive real-time alerts for unpaid invoices.",
-    link: "https://adorable-monstera-54dd37.netlify.app/",
-    github: "https://github.com/sparkle666/Bizpay",
-  },
   {
     // image: "/work/payment-wallet.png",
     image:
@@ -139,47 +98,12 @@ export const projectData = [
   },
   {
     // image: "/work/filmlane.png",
-    image:
-      "https://res.cloudinary.com/stephen1407/image/upload/v1709475003/iPhone-12-Mini-filmlane01.netlify.app_pyknto.png",
-    category: "HTML/CSS",
-    name: "Movie Website",
-    description:
-      "Experience a cinematic journey with our sleek and user-friendly movie website, featuring the latest releases and popular classics.",
-    link: "https://filmlane01.netlify.app/",
+    image: "",
+    category: "GSAP",
+    name: "",
+    description: "",
+    link: "",
     github: "#",
-  },
-  {
-    // image: "/work/filmlane.png",
-    image:
-      "https://res.cloudinary.com/stephen1407/image/upload/v1709501393/iPhone-12-Mini-beats-headphones-02.netlify.app_h3y1ps.png",
-    category: "HTML/CSS",
-    name: "Beats Landing Page",
-    description:
-      "Discover the latest Beats headphones, each elegantly presented with attention to detail and unique features. ScrollReveal.js adds an element of excitement as you scroll, unveiling the cutting-edge technology behind every product.",
-    link: "https://beats-headphones-02.netlify.app/",
-    github: "https://github.com/Praizee/Beats-Landing-Page",
-  },
-  {
-    // image: "/work/filmlane.png",
-    image:
-      "https://res.cloudinary.com/stephen1407/image/upload/v1709501393/iPhone-12-Mini-news-blog-website01.netlify.app_eolegx.png",
-    category: "HTML/CSS",
-    name: "Blog Website",
-    description:
-      "A sleek news blog website design with smooth navigation and a dynamic user experience for all.",
-    link: "https://news-blog-website01.netlify.app/",
-    github: "https://github.com/Praizee/News-Blog-Website",
-  },
-  {
-    // image: "/work/app-land.png",
-    image:
-      "https://res.cloudinary.com/stephen1407/image/upload/v1709474334/iPhone-12-Mini-praizee.github.io_ubqunn.png",
-    category: "HTML/CSS",
-    name: "App Landing Page",
-    description:
-      "A stunning, visually appealing app landing page that converts visitors to users. Try it today!",
-    link: "https://praizee.github.io/App-Landing-Page/",
-    github: "https://github.com/Praizee/App-Landing-Page",
   },
 ];
 
@@ -188,9 +112,9 @@ export const projectData2 = [
   {
     image:
       "https://res.cloudinary.com/stephen1407/image/upload/v1723893065/iPhone-12-Mini-devlinks-hng.vercel.app_sc5xfh.png",
-    category: "react.js",
+    category: "next.js",
     name: "DevLinks - Links Sharing App",
-    description: "Technologies: Next.js, Firebase, Tailwind CSS, Framer Motion",
+    description: "Technologies: Next.js, Firebase, Tailwind CSS,",
     link: "https://devlinks-hng.vercel.app/",
     github: "https://github.com/Praizee/devlinks-hng/",
   },
@@ -218,7 +142,7 @@ export const projectData2 = [
       "https://res.cloudinary.com/stephen1407/image/upload/v1709514130/iPhone-12-Mini-the-lazynerd-studios.vercel.app_xrerhy.png",
     category: "next.js",
     name: "Lazynerd Studios",
-    description: "Technologies: Next.js, Tailwind CSS, Framer Motion",
+    description: "Technologies: Next.js, Tailwind CSS,",
     link: "https://the-lazynerd-studios.vercel.app/",
     github: "#",
   },
