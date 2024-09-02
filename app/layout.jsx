@@ -16,7 +16,8 @@ export const metadata = {
     template: "Stephen Adeniji | %s",
     default: "Stephen Adeniji | Home",
   },
-  description: `Stephen Adeniji's Portfolio Website`,
+  description:
+    "Hey there! I'm Stephen Adeniji, a developer on a mission to craft engaging experiences through code. Welcome to my corner of the web!",
   verification: {
     google: "-l_9xMDmPYXcaA9WW6Xv3IoS2AqNaAzn1B6lTKIndpU",
   },
@@ -51,6 +52,9 @@ export const metadata = {
   },
   openGraph: {
     images: "/opengraph-image.png",
+    title: "Stephen Adeniji | Developer Extraordinaire",
+    description:
+      "Welcome to my digital hub! Explore my projects, journey, and passion for turning ideas into reality with code.",
   },
 };
 
