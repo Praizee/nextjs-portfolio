@@ -19,7 +19,8 @@ export const metadata = {
   description:
     "Hey there! I'm Stephen Adeniji, a developer on a mission to craft engaging experiences through code. Welcome to my corner of the web!",
   verification: {
-    google: "-l_9xMDmPYXcaA9WW6Xv3IoS2AqNaAzn1B6lTKIndpU",
+    // google: "-l_9xMDmPYXcaA9WW6Xv3IoS2AqNaAzn1B6lTKIndpU", // for vercel
+    google: "q_gak-J1lGaJGfTDefA3U-pidifSLpy_BtiN7Aqzvt4", // for is-a.dev
   },
   referrer: "origin-when-cross-origin",
   keywords: [
