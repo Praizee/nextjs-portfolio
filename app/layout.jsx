@@ -9,9 +9,9 @@ import BackToTopButton from "@/components/BackToTopButton";
 const outfit = Outfit({ subsets: ["latin"] });
 
 export const metadata = {
-  metadataBase: new URL("https://stephen-adeniji.vercel.app/"),
-  // https://stephen-adeniji.is-a.dev/
-
+  // metadataBase: new URL("https://stephen-adeniji.vercel.app/"),
+  metadataBase: new URL("https://stephen-adeniji.is-a.dev/"),
+  
   title: {
     template: "Stephen Adeniji | %s",
     default: "Stephen Adeniji | Home",
@@ -42,7 +42,8 @@ export const metadata = {
   ],
   authors: [
     { name: "Adeniji" },
-    { name: "Stephen", url: "https://stephen-adeniji.vercel.app/" },
+    // { name: "Stephen", url: "https://stephen-adeniji.vercel.app/" },
+    { name: "Stephen", url: "https://stephen-adeniji.is-a.dev/" },
   ],
   alternates: {
     canonical: "/",
