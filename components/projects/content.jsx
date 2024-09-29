@@ -3,6 +3,16 @@
 export const projectData = [
   {
     image:
+      "https://res.cloudinary.com/stephen1407/image/upload/v1727635716/iPhone-12-Mini-jumia-ng-clone.vercel.app_xam14s.png",
+    category: "next.js",
+    name: "Jumia Nigeria Online Shopping — Clone",
+    description:
+      "PWA - Lorem ipsum dolor sit amet rebum magna dolores blandit ea et et duo gubergren diam eirmod invidunt iusto et in",
+    link: "https://jumia-ng-clone.vercel.app/",
+    github: "https://github.com/Praizee/jumia-ng-clone",
+  },
+  {
+    image:
       "https://res.cloudinary.com/stephen1407/image/upload/v1723893065/iPhone-12-Mini-devlinks-hng.vercel.app_sc5xfh.png",
     category: "next.js",
     name: "DevLinks - Links Sharing App",
@@ -109,6 +119,15 @@ export const projectData = [
 
 // carousel
 export const projectData2 = [
+  {
+    image:
+      "https://res.cloudinary.com/stephen1407/image/upload/v1727635716/iPhone-12-Mini-jumia-ng-clone.vercel.app_xam14s.png",
+    category: "next.js",
+    name: "Jumia Nigeria Online Shopping — Clone",
+    description: "Technologies: Next.js, Tailwind CSS,",
+    link: "https://jumia-ng-clone.vercel.app/",
+    github: "https://github.com/Praizee/jumia-ng-clone",
+  },
   {
     image:
       "https://res.cloudinary.com/stephen1407/image/upload/v1723893065/iPhone-12-Mini-devlinks-hng.vercel.app_sc5xfh.png",
