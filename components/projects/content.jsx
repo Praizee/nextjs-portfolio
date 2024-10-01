@@ -50,7 +50,8 @@ export const projectData = [
     name: "Lazynerd Studios",
     description:
       "A landing page for a creative agency. Features custom animations with Framer Motion, and a minimalistic design using Next.js and Tailwind CSS.",
-    link: "https://the-lazynerd-studios.vercel.app/",
+    // link: "https://the-lazynerd-studios.vercel.app/",
+    link: "https://www.lazynerdstudios.com/",
     github: "#",
   },
   {
@@ -139,7 +140,8 @@ export const projectData2 = [
     category: "next.js",
     name: "Lazynerd Studios",
     description: "Technologies: Next.js, Tailwind CSS",
-    link: "https://the-lazynerd-studios.vercel.app/",
+    // link: "https://the-lazynerd-studios.vercel.app/",
+    link: "https://www.lazynerdstudios.com/",
     github: "#",
   },
   {
