@@ -23,6 +23,7 @@
     "next-nprogress-bar": "^2.3.13",
     "next-themes": "^0.2.1",
     "react": "^18",
+    "react-animated-cursor": "^2.11.2",
     "react-countup": "^6.5.0",
     "react-dom": "^18",
     "react-hook-form": "^7.49.2",
