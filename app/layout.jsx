@@ -11,7 +11,7 @@ const outfit = Outfit({ subsets: ["latin"] });
 export const metadata = {
   // metadataBase: new URL("https://stephen-adeniji.vercel.app/"),
   metadataBase: new URL("https://stephen-adeniji.is-a.dev/"),
-  
+
   title: {
     template: "Stephen Adeniji | %s",
     default: "Stephen Adeniji | Home",
@@ -53,7 +53,7 @@ export const metadata = {
     },
   },
   openGraph: {
-    images: "/opengraph-image.png",
+    images: "/opengraph-image.webp",
     title: "Stephen Adeniji | Developer Extraordinaire",
     description:
       "Welcome to my digital hub! Explore my projects, journey, and passion for turning ideas into reality with code.",
