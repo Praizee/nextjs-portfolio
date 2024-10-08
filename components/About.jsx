@@ -169,12 +169,7 @@ const About = () => {
                       world is fueled by a constant desire to learn and create.
                     </p>
                     <p className="subtitle max-w-xl mx-auto xl:mx-0">
-                      In my free time I like to read📖, research about emerging
-                      technogies, play games🎮 and watch movies🎬. Feel free to
-                      explore my work and connect with me. Looking forward to
-                      collaborating and sharing my web development journey with
-                      you! As well as bring my passion for coding and problem
-                      solving to a dynamic and innovative team! You can reach me
+                      Feel free to explore my work and connect with me—I'm excited to share my web development journey and collaborate! Let's work together to build something great! You can reach me
                       at{" "}
                       <a href="https://wa.link/wk4gts" className="text-primary">
                         +234 902 892 3853
