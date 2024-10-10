@@ -111,7 +111,7 @@ export const projectData2 = [
     image:
       "https://res.cloudinary.com/stephen1407/image/upload/v1727635716/iPhone-12-Mini-jumia-ng-clone.vercel.app_xam14s.png",
     category: "next.js",
-    name: "Jumia Nigeria Online Shopping — Clone",
+    name: "Jumia Nigeria Online Shopping — Clone (In-progress)",
     description: "Technologies: Next.js, Tailwind CSS, PWA",
     link: "https://jumia-ng-clone.vercel.app/",
     github: "https://github.com/Praizee/jumia-ng-clone",
