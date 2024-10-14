@@ -95,3 +95,6 @@ module.exports = {
   },
   plugins: [require("tailwindcss-animate")],
 };
+
+/* Made with 💙 by Stephen Adeniji
+https://stephen-adeniji.vercel.app/ */
