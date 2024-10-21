@@ -42,7 +42,7 @@ const Hero = () => {
               </Link>
               <Link
                 // href="/assets/Stephen Adeniji Frontend Developer Resume.pdf"
-                href="https://1drv.ms/b/s!Aq-10ZZ07HINgZgVbTKMAA1VZayTRQ?e=Fhj7Ds"
+                href="https://1drv.ms/b/s!Aq-10ZZ07HINgbFMYTIfSqG1i9N8Jw?e=QRXDSx"
                 // download="Stephen Adeniji Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
