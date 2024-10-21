@@ -40,7 +40,7 @@ const qualificationData = [
       {
         company: "Voltwolf Limited",
         role: "React Developer",
-        years: "March 2024 - Present",
+        years: "March 2024 - Sept. 2024",
       },
       {
         company: "Voltwolf Limited",
