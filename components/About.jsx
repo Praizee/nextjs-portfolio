@@ -11,8 +11,8 @@ import {
 } from "lucide-react";
 
 const infoData = [
-  { icon: <User2 size={20} />, text: "Stephen Adeniji" },
-  { icon: <PhoneCall size={20} />, text: "+234 902 892 3853" },
+  // { icon: <User2 size={20} />, text: "Stephen Adeniji" },
+  // { icon: <PhoneCall size={20} />, text: "+234 902 892 3853" },
   { icon: <MailIcon size={20} />, text: "adeolaastephen@gmail.com" },
   { icon: <MapPin size={20} />, text: "Lagos, Nigeria" },
   // { icon: <GraduationCap size={20} />, text: "B.Sc in Computer Science" },
@@ -39,13 +39,13 @@ const qualificationData = [
     data: [
       {
         company: "Voltwolf Limited",
-        role: "React Developer",
-        years: "March 2024 - Sept. 2024",
+        role: "Frontend Developer",
+        years: "Aug 2023 - Sept. 2024",
       },
       {
-        company: "Voltwolf Limited",
-        role: "Frontend Intern",
-        years: "Aug 2023 - Feb 2024",
+        company: "MarketBox",
+        role: "Frontend Developer",
+        years: "Feb - April 2024",
       },
       {
         company: "ICT Networld",
@@ -61,28 +61,20 @@ const skillsData = [
     title: "Skills",
     data: [
       {
-        title: "Markup Languages",
-        list: "HTML",
-      },
-      {
-        title: "Styles",
-        list: "CSS3, Tailwind, SCSS",
+        title: "Markup & Styling",
+        list: "HTML5, CSS3, TailwindCSS, SCSS",
       },
       {
         title: "Programming Languages",
-        list: "JavaScript, Typescript",
+        list: "JavaScript (ES6+), TypeScript",
       },
       {
-        title: "Libraries",
-        list: "React.js",
+        title: "Libraries & Frameworks",
+        list: "React.js, Next.js, React Native, Expo",
       },
       {
-        title: "Frameworks",
-        list: "Next.js, React Native, Expo",
-      },
-      {
-        title: "Version Control",
-        list: "Git, GitHub ",
+        title: "Version Control & Collaboration",
+        list: "Git, GitHub",
       },
     ],
   },
@@ -162,15 +154,23 @@ const About = () => {
                       games🎮 and watch movies🎬
                     </p> */}
                     <p className="subtitle max-w-xl mx-auto xl:mx-0">
-                      Hello, I'm Stephen Adeniji, a front-end developer based in
-                      Lagos, Nigeria. With a B.Sc in Computer Science, I bring a
-                      strong foundation in both theoretical and practical
-                      aspects of software development. My journey in the tech
-                      world is fueled by a constant desire to learn and create.
+                      Hey there! I’m Stephen Adeniji, a front-end developer
+                      based in Lagos, Nigeria. I hold a B.Sc in Computer
+                      Science, but it’s my curiosity and constant desire to
+                      learn and create that truly drive my work in web
+                      development.
+                      <br />
+                      I’m passionate about creating seamless user experiences
+                      and always aim to stay at the cutting edge of web
+                      development technologies.
+                      {/*  */} {""}
+                      When I’m not coding, you’ll probably find me exploring new
+                      tech trends, cybersecurity, or enjoying a good movie.
                     </p>
                     <p className="subtitle max-w-xl mx-auto xl:mx-0">
-                      Feel free to explore my work and connect with me—I'm excited to share my web development journey and collaborate! Let's work together to build something great! You can reach me
-                      at{" "}
+                      Check out my work, let’s connect, or better yet, let’s
+                      collaborate and build something amazing together! You can
+                      reach me at{" "}
                       <a href="https://wa.link/wk4gts" className="text-primary">
                         +234 902 892 3853
                       </a>{" "}
@@ -180,7 +180,7 @@ const About = () => {
                         className="text-primary"
                       >
                         adeolaastephen@gmail.com
-                      </a>{" "}
+                      </a>
                       .
                     </p>
                     {/* Icons */}
@@ -305,7 +305,6 @@ const About = () => {
                       <div>
                         {getData(skillsData, "Skills").data.map(
                           (item, index) => {
-                            const { name } = item;
                             return (
                               <div
                                 className="w-2/4 xl:w-auto text-center xl:text-left mx-auto xl:mx-0"

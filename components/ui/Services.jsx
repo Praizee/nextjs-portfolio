@@ -25,13 +25,14 @@ const servicesData = [
     icon: <Blocks size={72} strokeWidth={0.8} />,
     title: "App Development",
     description:
-      "Bringing your ideas to life with custom mobile applications. I specialize in developing intuitive and feature-rich apps for various platforms. Whether it's iOS or Android, I create solutions that elevate user engagement and satisfaction.",
+      "Bringing your ideas to life with custom mobile applications. I'm focused on developing intuitive and feature-rich apps for various platforms. Whether it's iOS or Android, I create solutions that elevate user engagement and satisfaction.",
   },
   {
     icon: <Rocket size={72} strokeWidth={0.8} />,
     title: "Performance Optimization",
     description:
-      "Boost your site's visibility, search engine rankings, speed, and user experience with expert SEO strategies, performance enhancements, and UI improvements for a smoother and more engaging experience.",
+      "Enhance your website's speed and user experience through targeted UI improvements and performance enhancements. I focus on creating smoother, more responsive interactions that keep users engaged and satisfied with your site.",
+    // "Boost your site's visibility, search engine rankings, speed, and user experience with expert SEO strategies, performance enhancements, and UI improvements for a smoother and more engaging experience.",
     // "Enhancing your website’s visibility, speed, and usability with expert SEO strategies, performance optimization, and UI improvements. I focus on improving search engine rankings, reducing load times, and fixing or refining your user interface for a faster, smoother, and more engaging experience.",
   },
 ];
