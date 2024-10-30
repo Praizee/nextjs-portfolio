@@ -19,6 +19,7 @@ const ProjectCard = ({ project }) => {
             height={250}
             alt=""
             priority
+            quality={90}
           />
 
           {/* Buttons */}

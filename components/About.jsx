@@ -344,6 +344,7 @@ const About = () => {
                                     alt={item.title}
                                     title={item.title}
                                     priority
+                                    quality={90}
                                   />
                                 </span>
                                 <p className="text-xs mt-1 text-primary">

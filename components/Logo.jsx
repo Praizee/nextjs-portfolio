@@ -9,6 +9,7 @@ const Logo = () => {
         width={65}
         height={65}
         priority
+        quality={90}
         alt="Logo"
         className="w-[65px] h-auto"
       />
