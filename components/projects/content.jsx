@@ -3,6 +3,16 @@
 export const projectData = [
   {
     image:
+      "https://res.cloudinary.com/stephen1407/image/upload/v1730311654/iPhone-12-Mini-delve.fun_sallqi.png",
+    category: "next.js",
+    name: "Delve - Language Learning 3D Game (HNG)",
+    description:
+      "In-progress: Delve is a language learning AI web app that uses three.js to improve learning of new languages.",
+    link: "https://delve.fun/",
+    github: "",
+  },
+  {
+    image:
       "https://res.cloudinary.com/stephen1407/image/upload/v1727635716/iPhone-12-Mini-jumia-ng-clone.vercel.app_xam14s.png",
     category: "next.js",
     name: "Jumia Nigeria Online Shopping — Clone",
@@ -66,16 +76,6 @@ export const projectData = [
   },
   {
     image:
-      "https://res.cloudinary.com/stephen1407/image/upload/v1709423286/iPhone-12-Mini-talent-assessment.vercel.app_nf4zxf.png",
-    category: "next.js",
-    name: "ClearLink Landing Page",
-    description:
-      "A responsive landing page for ClearLink. Built using Next.js and Tailwind CSS.",
-    link: "https://talent-assessment.vercel.app/",
-    github: "https://github.com/Praizee/talent-assessment",
-  },
-  {
-    image:
       "https://res.cloudinary.com/stephen1407/image/upload/v1709423770/iPhone-12-Mini-digital-payment-wallett.netlify.app_k5360v.png",
     category: "react.js",
     name: "Payment Wallet",
@@ -107,6 +107,16 @@ export const projectData = [
 
 // carousel
 export const projectData2 = [
+  {
+    image:
+      "https://res.cloudinary.com/stephen1407/image/upload/v1730311654/iPhone-12-Mini-delve.fun_sallqi.png",
+    category: "next.js",
+    name: "Delve - Language Learning 3D Game (HNG)",
+    description:
+      "Technologies: Next.js, Tailwind CSS, Shadcn UI, GSAP, Zustand",
+    link: "https://delve.fun/",
+    github: "",
+  },
   {
     image:
       "https://res.cloudinary.com/stephen1407/image/upload/v1727635716/iPhone-12-Mini-jumia-ng-clone.vercel.app_xam14s.png",
