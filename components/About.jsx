@@ -27,11 +27,11 @@ const qualificationData = [
         qualification: "Bachelor of Science",
         years: "2019 - 2022",
       },
-      {
-        school: "Towemo College, Lagos",
-        qualification: "S.S.C.E",
-        years: "2013 - 2019",
-      },
+      // {
+      //   school: "Towemo College, Lagos",
+      //   qualification: "S.S.C.E",
+      //   years: "2013 - 2019",
+      // },
     ],
   },
   {
