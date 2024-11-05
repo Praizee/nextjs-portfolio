@@ -155,10 +155,11 @@ const About = () => {
                     </p> */}
                     <p className="subtitle max-w-xl mx-auto xl:mx-0">
                       Hey there! I’m Stephen Adeniji, a front-end developer
-                      based in Lagos, Nigeria. I hold a B.Sc in Computer
+                      based in Lagos, Nigeria. 
+{/*                       I hold a B.Sc in Computer
                       Science, but it’s my curiosity and constant desire to
                       learn and create that truly drive my work in web
-                      development.
+                      development. */}
                       <br />
                       I’m passionate about creating seamless user experiences
                       and always aim to stay at the cutting edge of web
@@ -198,11 +199,11 @@ const About = () => {
                       })}
                     </div>
                     {/* Languages */}
-                    <div className="flex flex-col gap-y-2">
+{/*                     <div className="flex flex-col gap-y-2">
                       <div>Languages</div>
                       <div className="border-b border-border"></div>
                       <div>English, French, Yoruba</div>
-                    </div>
+                    </div> */}
                   </div>
                 </TabsContent>
 
