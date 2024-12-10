@@ -23,6 +23,16 @@ export const projectData = [
   },
   {
     image:
+      "https://res.cloudinary.com/stephen1407/image/upload/v1733789095/iPhone-12-Mini-pursfi-home.vercel.app_jvsiaa.png",
+    category: "next.js",
+    name: "Pursfi",
+    description:
+      "A Landing Page for the Pursfi Finance App. Built using Next.js, Framer motion and Tailwind CSS.",
+    link: "https://pursfi-home.vercel.app/",
+    github: "",
+  },
+  {
+    image:
       "https://res.cloudinary.com/stephen1407/image/upload/v1723893065/iPhone-12-Mini-devlinks-hng.vercel.app_sc5xfh.png",
     category: "next.js",
     name: "DevLinks - Links Sharing App",
@@ -42,6 +52,16 @@ export const projectData = [
     // "A React-based app that helps users monitor traffic congestion in real-time using APIs and geolocation services. Features real-time data updates and a user-friendly UI.",
     link: "https://traffic-tracker-application.vercel.app/",
     github: "https://github.com/Praizee/Traffic-Tracker-Application",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/stephen1407/image/upload/v1733789389/Home-Haven-RN-App_a1zx1l.jpg",
+    category: "react native",
+    name: "HomeHaven - Online Home and Furniture Store App",
+    description:
+      "HomeHaven is an e-commerce app UI. Built with React Native, Expo, and twrnc, it showcases a visually appealing interface for browsing home decor and furniture.",
+    link: "https://expo.dev/preview/update?message=chore%3A%20update%20packages%20and%20expo%20sdk&updateRuntimeVersion=1.0.0&createdAt=2024-12-09T16%3A13%3A16.831Z&slug=exp&projectId=9c988f3f-5c28-4867-bcda-332e77bf02a4&group=b887fa50-809f-4c19-a0f8-336b18adcc7f",
+    github: "https://github.com/Praizee/homehaven-app",
   },
   {
     image:
@@ -94,15 +114,15 @@ export const projectData = [
     link: "https://realtime-chat-app-01.netlify.app/",
     github: "#",
   },
-  {
-    image: "",
-    category: "GSAP",
-    name: "Coming soon...",
-    description:
-      "An experimental demo using GSAP for interactive animations and smooth transitions. Aiming to showcase complex UI interactions.",
-    link: "",
-    github: "#",
-  },
+  // {
+  //   image: "",
+  //   category: "GSAP",
+  //   name: "Coming soon...",
+  //   description:
+  //     "An experimental demo using GSAP for interactive animations and smooth transitions. Aiming to showcase complex UI interactions.",
+  //   link: "",
+  //   github: "#",
+  // },
 ];
 
 // carousel
