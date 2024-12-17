@@ -1,6 +1,9 @@
+"use client";
+
 import Link from "next/link";
 import { Button } from "./ui/button";
 import { Download, Send } from "lucide-react";
+import { useRouter } from "next/navigation";
 
 import {
   RiBriefcase4Fill,
@@ -13,6 +16,8 @@ import Badge from "./Badge";
 import DevImg from "./DevImg";
 
 const Hero = () => {
+  const router = useRouter();
+  
   return (
     <section className="py-12 xl:py-24 h-[84vh] xl:pt-28 bg-hero  bg-no-repeat bg-bottom bg-cover dark:bg-none">
       <div className="container mx-auto">
@@ -40,17 +45,18 @@ const Hero = () => {
                   Contact Me <Send size={18} />
                 </Button>
               </Link>
-              <Link
+{/*               <Link
                 // href="/assets/Stephen Adeniji Frontend Developer Resume.pdf"
                 href="https://1drv.ms/b/c/0d72ec7496d1b5af/Ea-10ZZ07HIggA3MWAAAAAABfZ8G0TSIlHh-PJWfbP_tYQ?e=O7Gm3Y"
+                href="https://docs.google.com/document/d/1jcShwi6kIsihQ1aFXs85n65K07yycl1Kel53FiCy2bo/edit?usp=sharing"
                 // download="Stephen Adeniji Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
-              >
-                <Button variant="secondary" className="gap-x-2">
+              > */}
+                <Button onClick={router.push("https://docs.google.com/document/d/1jcShwi6kIsihQ1aFXs85n65K07yycl1Kel53FiCy2bo/edit?usp=sharing");} variant="secondary" className="gap-x-2">
                   Download CV <Download size={18} />
                 </Button>
-              </Link>
+{/*               </Link> */}
             </div>
 
             {/* Socials */}
