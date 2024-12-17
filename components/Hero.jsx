@@ -53,7 +53,7 @@ const Hero = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               > */}
-                <Button onClick={router.push("https://docs.google.com/document/d/1jcShwi6kIsihQ1aFXs85n65K07yycl1Kel53FiCy2bo/edit?usp=sharing");} variant="secondary" className="gap-x-2">
+                <Button onClick={router.push("https://docs.google.com/document/d/1jcShwi6kIsihQ1aFXs85n65K07yycl1Kel53FiCy2bo/edit?usp=sharing")} variant="secondary" className="gap-x-2">
                   Download CV <Download size={18} />
                 </Button>
 {/*               </Link> */}
