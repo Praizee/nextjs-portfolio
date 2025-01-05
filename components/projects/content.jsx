@@ -60,7 +60,7 @@ export const projectData = [
     name: "HomeHaven - Online Home and Furniture Store App",
     description:
       "HomeHaven is an e-commerce app UI. Built with React Native, Expo, and twrnc, it showcases a visually appealing interface for browsing home decor and furniture.",
-    link: "https://expo.dev/preview/update?message=chore%3A%20update%20packages%20and%20expo%20sdk&updateRuntimeVersion=1.0.0&createdAt=2024-12-09T16%3A13%3A16.831Z&slug=exp&projectId=9c988f3f-5c28-4867-bcda-332e77bf02a4&group=b887fa50-809f-4c19-a0f8-336b18adcc7f",
+    link: "https://expo.dev/preview/update?message=fix%3A%20flow&updateRuntimeVersion=1.0.0&createdAt=2025-01-05T22%3A16%3A47.324Z&slug=exp&projectId=9c988f3f-5c28-4867-bcda-332e77bf02a4&group=c8830fcf-c93b-457c-902a-9e9f944c026e",
     github: "https://github.com/Praizee/homehaven-app",
   },
   {
