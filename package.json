@@ -28,6 +28,7 @@
     "react-dom": "^18.3.1",
     "react-hook-form": "^7.55.0",
     "react-icons": "^4.12.0",
+    "sonner": "^2.0.3",
     "swiper": "^11.2.6",
     "tailwind-merge": "^2.6.0",
     "tailwindcss-animate": "^1.0.7",

@@ -4,6 +4,7 @@ import { ThemeProvider, ProgressBarProvider } from "@/components/Providers";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import BackToTopButton from "@/components/BackToTopButton";
+import { Toaster } from "sonner";
 
 const outfit = Outfit({ subsets: ["latin"] });
 
@@ -67,6 +68,7 @@ export default function RootLayout({ children }) {
           <ProgressBarProvider>
             <Header />
             {children}
+            <Toaster />
             <BackToTopButton />
             <Footer />
           </ProgressBarProvider>
