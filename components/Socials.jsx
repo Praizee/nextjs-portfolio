@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import {
   RiTwitterXFill,
   RiLinkedinFill,
@@ -42,7 +43,7 @@ const Socials = ({ containerStyles, iconsStyles }) => {
     <div className={`${containerStyles}`}>
       {icons.map((icon, index) => {
         return (
-          <a
+          <Link
             href={icon.path}
             key={`social-icon-${index}`}
             className={`${iconsStyles}`}
@@ -51,19 +52,20 @@ const Socials = ({ containerStyles, iconsStyles }) => {
             title={icon.title}
           >
             {icon.name}
-          </a>
+          </Link>
         );
       })}
-      <a
+      <Link
         href="https://wa.link/wk4gts"
         className={`${iconsStyles}`}
         target="_blank"
         title="WhatsApp"
       >
         <RiWhatsappFill className="fill-green-400" />
-      </a>
+      </Link>
     </div>
   );
 };
 
 export default Socials;
+

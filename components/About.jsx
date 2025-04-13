@@ -9,6 +9,7 @@ import {
   MapPin,
   Briefcase,
 } from "lucide-react";
+import Link from "next/link";
 
 const infoData = [
   // { icon: <User2 size={20} />, text: "Stephen Adeniji" },
@@ -155,8 +156,8 @@ const About = () => {
                     </p> */}
                     <p className="subtitle max-w-xl mx-auto xl:mx-0">
                       Hey there! I’m Stephen Adeniji, a front-end developer
-                      based in Lagos, Nigeria. 
-{/*                       I hold a B.Sc in Computer
+                      based in Lagos, Nigeria.
+                      {/*                       I hold a B.Sc in Computer
                       Science, but it’s my curiosity and constant desire to
                       learn and create that truly drive my work in web
                       development. */}
@@ -172,16 +173,19 @@ const About = () => {
                       Check out my work, let’s connect, or better yet, let’s
                       collaborate and build something amazing together! You can
                       reach me at{" "}
-                      <a href="https://wa.link/wk4gts" className="text-primary">
+                      <Link
+                        href="https://wa.link/wk4gts"
+                        className="text-primary"
+                      >
                         +234 902 892 3853
-                      </a>{" "}
+                      </Link>{" "}
                       or{" "}
-                      <a
+                      <Link
                         href="mailto:adeolaastephen@gmail.com."
                         className="text-primary"
                       >
                         adeolaastephen@gmail.com
-                      </a>
+                      </Link>
                       .
                     </p>
                     {/* Icons */}
@@ -199,7 +203,7 @@ const About = () => {
                       })}
                     </div>
                     {/* Languages */}
-{/*                     <div className="flex flex-col gap-y-2">
+                    {/*                     <div className="flex flex-col gap-y-2">
                       <div>Languages</div>
                       <div className="border-b border-border"></div>
                       <div>English, French, Yoruba</div>
@@ -369,3 +373,4 @@ const About = () => {
 };
 
 export default About;
+
