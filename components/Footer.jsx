@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Socials from "./Socials";
 
 const Footer = () => {
@@ -10,19 +11,19 @@ const Footer = () => {
           {/* Socials */}
           <Socials
             containerStyles="flex gap-x-6 mx-auto xl:mx-0 mb-4"
-            iconsStyles="text-primary text-[25px] dark:text-white/70 hover:text-white dark:hover:text-primary transition-all"
+            iconsStyles="text-foreground text-[25px] hover:text-primary transition-all duration-200"
           />
           <div className="text-muted-foreground">
             Copyright &copy; {currentYear} All Rights Reserved
           </div>
           <div className="text-muted-foreground">
             Made with 💙 by{" "}
-            <a
+            <Link
               href="https://github.com/Praizee"
               className="hover:text-primary transition duration-300"
             >
               Stephen Adeniji
-            </a>
+            </Link>
           </div>
         </div>
       </div>
@@ -31,3 +32,4 @@ const Footer = () => {
 };
 
 export default Footer;
+
