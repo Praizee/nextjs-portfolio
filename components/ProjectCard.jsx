@@ -28,6 +28,7 @@ const ProjectCard = ({ project }) => {
               href={project.link}
               title="Demo"
               target="_blank"
+              rel="noopener noreferrer"
               className="bg-[#1E2A3B] w-[54px] h-[54px] rounded-full flex justify-center items-center scale-0 opacity-0 group-hover:scale-100 group-hover:opacity-100 transition-all duration-200"
             >
               <Link2Icon className="text-white" />
@@ -36,7 +37,15 @@ const ProjectCard = ({ project }) => {
             <Link
               href={project.github}
               title="GitHub Source Code"
-              target="_blank"
+              // target="_blank"
+              target={
+                project.github && project.github !== "#" ? "_blank" : undefined
+              }
+              rel={
+                project.github && project.github !== "#"
+                  ? "noopener noreferrer"
+                  : undefined
+              }
               className="bg-[#1E2A3B] w-[54px] h-[54px] rounded-full flex justify-center items-center scale-0 opacity-0 group-hover:scale-100 group-hover:opacity-100 transition-all duration-200"
             >
               <Github className="text-white" />
@@ -58,3 +67,4 @@ const ProjectCard = ({ project }) => {
 };
 
 export default ProjectCard;
+
