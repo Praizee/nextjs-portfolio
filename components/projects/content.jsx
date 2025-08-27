@@ -18,7 +18,7 @@ export const projectData = [
     name: "Jumia Nigeria Online Shopping — Clone",
     description:
       "In-progress: A Progressive Web App (PWA) clone of Jumia Nigeria's online shopping platform. Mimicking key features like product listings, search, and cart functionalities using Next.js and Tailwind CSS.",
-    link: "https://jumia-ng-clone.vercel.app/",
+    link: "https://jumia-ng-clone.netlify.app/",
     github: "https://github.com/Praizee/jumia-ng-clone",
   },
   {
