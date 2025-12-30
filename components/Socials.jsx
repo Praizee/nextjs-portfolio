@@ -27,12 +27,12 @@ const icons = [
     title: "Facebook",
   },
   {
-    path: "https://twitter.com/steve_ade1407",
+    path: "https://twitter.com/steevenadeniji",
     name: <RiTwitterXFill />,
     title: "Twitter X",
   },
   {
-    path: "https://www.instagram.com/steve_ade14/",
+    path: "https://www.instagram.com/steeven_adeniji/",
     name: <RiInstagramFill />,
     title: "Instagram",
   },
